@@ -197,22 +197,82 @@ AgentFlow 是客服侧的意图路由与编排层，支持**渐进式接管**业
 - **三层记忆**：L1 工作记忆 / L2 会话摘要 / L3 用户画像，Redis 持久化（关闭降级进程内存）
 - **Badcase 回流**：半自动流程，运营填写期望回复后自动生成规则（权重 0.6×，低于人工规则）
 
-### 客服对话流
+### 客服侧端到端链路
 
 ```
-用户消息 → intent_router → ┬→ faq      → rag_reply（知识库检索 + LLM）
-                          ├→ tryon    → check_profile → 试穿出图
-                          └→ chat     → chat_reply（LLM）
-
-用户发图 + 文本 → 精确识图（dHash）或 相似款推荐（视觉模型）→ 商品卡片 + 试穿引导
+用户消息
+  │  [chat.py POST /api/chat/message]
+  ▼
+① 三路意图识别（Pattern .45 + Embedding .35 + LLM .20 融合，任一失败自动降级）
+   intent_router.classify_async() → IntentDecision{primary_intent, confidence, need_rag}
+  │
+  ▼
+② Agent 路由编排（按 primary_intent 分发，未命中/低置信回退 legacy）
+   orchestrator → CatalogAgent / PolicyRAGAgent / TryOnAgent / ProductAdvisorAgent
+  │
+  ├─ PolicyRAG → ③ RAG 检索  RagService.aquery()（ChromaDB 语义检索 + 重排）
+  ├─ Catalog   → ③ 工具调用  ToolGateway（SKU 查询 / 商品卡片）
+  ├─ TryOn     → ③ 工具调用  check_profile + 试穿出图
+  └─ fallback  → ③ legacy    chat_service.process_chat_message()
+  │
+  ▼
+④ 响应合并（计算执行一致性，写 metadata）
+   runtime.handle() → {reply, metadata{executed_route, agentflow_executed, monitor_penalty}}
+  │
+  ▼
+⑤ 记忆回写（L1 同步 / L2·L3 异步，Redis 持久化，关闭降级进程内存）
+   memory: working memory 写入 → summary + profile 异步生成
+  │
+  ▼
+⑥ 异步监控 + 评测反馈（闭环）
+   monitor: Agent penalty → 影响后续路由权重
+   feedback_engine: badcase 回流 → 意图规则（0.6× 低于人工）+ 知识库补录
 ```
 
-### 运营生成流
+> **多模态入口**：用户发图 + 文本时，先走 `similar_product_service`（dHash 精确同款 / Qwen3-VL 视觉相似款），匹配到 SKU 后再进入上方对话链路。
+
+### 运营侧端到端链路
 
 ```
-上传 SKU 图 → 分析产品(Stage1) → 营销策略(Stage2) → 人工确认
-           → 生成提示词(Stage3) → 人工确认 → 批量生成图片
+上传 SKU 图
+  │  [generation.py POST /api/generation/start]  stop_at=campaign
+  ▼
+① 任务初始化（构造状态 + LangGraph 编排）
+   generation_service.run_ops_start() → FitMirrorState
+   ops_graph.OpsGraphRunner.run_until_pause(stop_at)
+  │
+  ▼
+② Stage1 产品分析（视觉模型 Qwen3-VL → product.json，严禁臆造）
+   load_sku_node → stage1_node → stage1_analyze_image()
+   产物：名称/类目/材质/颜色HEX/结构/可见特征
+  │
+  ▼
+③ Stage2 营销策略（文本模型 DeepSeek → campaign.json）
+   stage2_node → stage2_generate_campaign()
+   产物：核心卖点/痛点/利益点/使用场景/步骤/竞品对比/信任元素
+  │
+  ▼  ★ 暂停 awaiting_confirm="campaign"  →  等待 POST /api/generation/resume {action:confirm}
+④ Stage3 提示词生成（Style Lock 注入 → prompts.json）
+   resume_stage3() → generate_style_lock() + stage3_generate_prompts()
+   产物：H1-H5 主图 + D1-D9 详情页信息图（强制 HEX 色值/产品占比/留白/否定清单）
+  │
+  ▼  ★ 暂停 awaiting_confirm="prompts"  →  等待 POST /api/generation/resume {action:confirm}
+⑤ 批量出图（images.edit API，产品图作底图，style_lock+prompt 拼接）
+   resume_images() → generate_images_node() → generate_all_images()
+   机制：产品外观自动保留，prompt 只描述场景/环境/灯光/构图；并发生成 + 单图断点续跑
+  │
+  ▼
+产物落盘  workspace/：product.json / campaign.json / prompts.json / *.png
 ```
+
+**运营侧核心机制**：
+
+- **LangGraph 编排**：`OpsGraphRunner` 复用 `FitMirrorState`，`run_until_pause`/`resume_stage3`/`resume_images` 三段式调度
+- **人机协同暂停点**：Stage2→Stage3（确认营销策略）、Stage3→出图（确认提示词），均通过 `awaiting_confirm` 标记 + `/resume` 接口恢复
+- **Style Lock**：Stage3 前按品类预设色板（beauty/skincare/fashion）生成风格锁，注入每张图 prompt 首段，禁止单图漂移
+- **断点续跑**：product.json/campaign.json/prompts.json 落盘即 checkpoint，失败后复用避免重复调用 LLM
+- **多客户端**：Stage1 视觉（硅基流动 Qwen3-VL）/ Stage2·Stage3 文本（DeepSeek）/ 出图（硅基流动 Qwen-Image-Edit）
+- **出图模式**：`hero`（5 张主图）/ `full`（主图 + 详情页 + Lookbook 三视图）
 
 ---
 

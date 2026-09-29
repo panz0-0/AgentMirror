@@ -1,0 +1,22 @@
+﻿[
+  {"text":"我想试穿这件衣服","expected_intent":"product_tryon","expected_route":"legacy_tryon"},
+  {"text":"这件衣服上身效果怎么样","expected_intent":"product_tryon","expected_route":"legacy_tryon"},
+  {"text":"我想看看店里有哪些裤子","expected_intent":"product_catalog","expected_route":"legacy_catalog"},
+  {"text":"推荐几件衣服","expected_intent":"product_catalog","expected_route":"legacy_catalog"},
+  {"text":"这件商品是什么尺码","expected_intent":"product_intro","expected_route":"legacy_product_intro"},
+  {"text":"请介绍一下这款商品","expected_intent":"product_intro","expected_route":"legacy_product_intro"},
+  {"text":"退货几天能退款","expected_intent":"policy_faq","expected_route":"legacy_faq_rag"},
+  {"text":"物流几天到","expected_intent":"policy_faq","expected_route":"legacy_faq_rag"},
+  {"text":"你好","expected_intent":"general_chat","expected_route":"legacy_langgraph_chat"},
+  {"text":"我想找一件相似款","expected_intent":"similar_product","expected_route":"legacy_similar_product"},
+  {"text":"这款衣服怎么搭配","expected_intent":"product_advice","expected_route":"legacy_langgraph_chat"},
+  {"text":"衣服和裤子怎么组合","expected_intent":"product_advice","expected_route":"legacy_langgraph_chat"},
+  {"text":"我收到的衣服破损了怎么办","expected_intent":"policy_faq","expected_route":"legacy_faq_rag"},
+  {"text":"能开发票吗","expected_intent":"policy_faq","expected_route":"legacy_faq_rag"},
+  {"text":"帮我看这张图里有没有类似款","expected_intent":"similar_product","expected_route":"legacy_image_match","has_image":true},
+  {"text":"","expected_intent":"similar_product","expected_route":"legacy_image_match","has_image":true},
+  {"text":"今天天气不错","expected_intent":"general_chat","expected_route":"legacy_langgraph_chat"},
+  {"text":"xyzabc随便问问","expected_intent":"general_chat","expected_route":"legacy_langgraph_chat"},
+  {"text":"账号一直登录失败","expected_intent":"policy_faq","expected_route":"legacy_faq_rag"},
+  {"text":"支付扣款异常怎么处理","expected_intent":"policy_faq","expected_route":"legacy_faq_rag"}
+]

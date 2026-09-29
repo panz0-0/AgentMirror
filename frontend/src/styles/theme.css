@@ -1,0 +1,118 @@
+:root {
+  --fm-font: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+  --fm-font-mono: "Cascadia Code", "SF Mono", Consolas, monospace;
+
+  --fm-surface: #ffffff;
+  --fm-surface-muted: #f8fafc;
+  --fm-surface-subtle: #f1f5f9;
+  --fm-surface-chat: #eceff4;
+  --fm-border: #e2e8f0;
+  --fm-border-strong: #cbd5e1;
+
+  --fm-text: #0f172a;
+  --fm-text-secondary: #475569;
+  --fm-text-muted: #94a3b8;
+
+  --fm-accent: #10b981;
+  --fm-accent-soft: #ecfdf5;
+  --fm-accent-hover: #059669;
+  --fm-accent-muted: #d1fae5;
+
+  --fm-primary: #3b82f6;
+  --fm-primary-soft: #eff6ff;
+  --fm-primary-hover: #2563eb;
+
+  --fm-nav-bg: #0f172a;
+  --fm-nav-border: rgba(255, 255, 255, 0.06);
+  --fm-nav-text: rgba(255, 255, 255, 0.72);
+  --fm-nav-active-bg: rgba(16, 185, 129, 0.16);
+  --fm-nav-active-text: #6ee7b7;
+
+  --fm-chat-header: #1e293b;
+  --fm-chat-user-bubble: #95ec69;
+  --fm-chat-assistant-bubble: #ffffff;
+
+  --fm-radius-sm: 6px;
+  --fm-radius-md: 10px;
+  --fm-radius-lg: 14px;
+  --fm-radius-pill: 999px;
+
+  --fm-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --fm-shadow-md: 0 4px 16px rgba(15, 23, 42, 0.08);
+  --fm-shadow-lg: 0 12px 32px rgba(15, 23, 42, 0.1);
+
+  --el-color-primary: #3b82f6;
+  --el-color-success: #10b981;
+  --el-border-radius-base: 8px;
+  --el-font-family: var(--fm-font);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fm-font);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--fm-text);
+  background: var(--fm-surface-muted);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fm-page {
+  min-height: 100%;
+  padding: 16px 20px 24px;
+  background: var(--fm-surface-muted);
+  overflow-y: auto;
+}
+
+.fm-page-header {
+  margin-bottom: 16px;
+}
+
+.fm-page-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--fm-text);
+}
+
+.fm-page-desc {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: var(--fm-text-muted);
+}
+
+.fm-card {
+  border-radius: var(--fm-radius-lg) !important;
+  border: 1px solid var(--fm-border) !important;
+  box-shadow: var(--fm-shadow-sm) !important;
+}
+
+.fm-card :deep(.el-card__header) {
+  border-bottom-color: var(--fm-border);
+  font-weight: 600;
+  color: var(--fm-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

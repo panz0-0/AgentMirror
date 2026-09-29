@@ -1,0 +1,177 @@
+{
+  "M1": {
+    "size": "1024x1024",
+    "objective": "模特套图: 正面全身站立, 自然放松姿态, 眼神看向镜头",
+    "style": "ecommerce commercial photography",
+    "prompt": "Professional ecommerce product photography, front full body, eye-level angle, full shot, product occupies 30-35%, whitespace 45%+.",
+    "camera": "Canon EOS R5, 85mm f/1.2, front full body, eye-level angle, full shot",
+    "lighting": "studio lighting 5500K, soft diffused",
+    "composition": "product occupies 30-35% of frame, whitespace 45%+, clean centered composition",
+    "background": "#FFFFFF clean seamless studio background",
+    "color_control": [
+      "#FFFFFF",
+      "#2D2D2D",
+      "#7A9E7E",
+      "#F5F1E8"
+    ],
+    "product_lock_rules": [
+      "preserve model identity exactly — same face, body type, skin tone, hair",
+      "preserve product exactly as in the reference image",
+      "only change pose, camera angle, and scene context"
+    ],
+    "style_lock": "Campaign Style Lock: consistent premium 运动鞋 ecommerce visual system across entire set; fixed palette: bg #FFFFFF, text #2D2D2D, accent #7A9E7E, secondary #F5F1E8; tone: neutral-cool, 5500K; fonts: headlines: Didot serif; body/labels: SF Pro Display sans-serif; no third font family; backgrounds: primary: #FFFFFF clean studio; alternate 1: #F5F1E8; alternate 2: #FFFFFF; strict rotation across images; lighting: neutral-cool, 5500K studio lighting; consistent shadow softness and direction across all images; layout: generous whitespace (45-50%+); rounded rectangular info labels (8px corner radius); clean grid-based layouts; consistent margin/padding across all screens; icons: thin-line icons, 2px stroke weight, consistent style; color: #7A9E7E; no filled icons, no mixed icon styles; product: stable product scale and placement; product material and finish consistently rendered; product angle varies per screen per multi-angle rules; STRICTLY NO: no color palette changes; no mixed font families; no random backgrounds; no inconsistent lighting direction or color temperature; no mismatched icon styles; no decoration style drift; no product proportion changes.",
+    "language": "",
+    "model_attrs": "East Asian, Female, 20-30, Fair skin, Slim build",
+    "negative_constraints": [
+      "no extra props, hands, or decorative objects",
+      "no watermarks, fake logos, or extra text",
+      "no gradient backgrounds unless specified",
+      "no sci-fi or fantasy elements"
+    ],
+    "product_ratio": "30-35%",
+    "whitespace_pct": "45%",
+    "angle": "front full body, eye-level",
+    "shot_size": "full shot",
+    "is_infographic": false
+  },
+  "M2": {
+    "size": "1024x1024",
+    "objective": "模特套图: 侧身45度行走动态, 展示产品穿着时的流动感和版型",
+    "style": "ecommerce commercial photography",
+    "prompt": "Professional ecommerce product photography, 45° side profile, walking motion angle, full shot, product occupies 25-30%, whitespace 45%+.",
+    "camera": "Canon EOS R5, 85mm f/1.2, 45° side profile, walking motion angle, full shot",
+    "lighting": "studio lighting 5500K, soft diffused",
+    "composition": "product occupies 25-30% of frame, whitespace 45%+, clean centered composition",
+    "background": "#FFFFFF clean seamless studio background",
+    "color_control": [
+      "#FFFFFF",
+      "#2D2D2D",
+      "#7A9E7E",
+      "#F5F1E8"
+    ],
+    "product_lock_rules": [
+      "preserve model identity exactly — same face, body type, skin tone, hair",
+      "preserve product exactly as in the reference image",
+      "only change pose, camera angle, and scene context"
+    ],
+    "style_lock": "Campaign Style Lock: consistent premium 运动鞋 ecommerce visual system across entire set; fixed palette: bg #FFFFFF, text #2D2D2D, accent #7A9E7E, secondary #F5F1E8; tone: neutral-cool, 5500K; fonts: headlines: Didot serif; body/labels: SF Pro Display sans-serif; no third font family; backgrounds: primary: #FFFFFF clean studio; alternate 1: #F5F1E8; alternate 2: #FFFFFF; strict rotation across images; lighting: neutral-cool, 5500K studio lighting; consistent shadow softness and direction across all images; layout: generous whitespace (45-50%+); rounded rectangular info labels (8px corner radius); clean grid-based layouts; consistent margin/padding across all screens; icons: thin-line icons, 2px stroke weight, consistent style; color: #7A9E7E; no filled icons, no mixed icon styles; product: stable product scale and placement; product material and finish consistently rendered; product angle varies per screen per multi-angle rules; STRICTLY NO: no color palette changes; no mixed font families; no random backgrounds; no inconsistent lighting direction or color temperature; no mismatched icon styles; no decoration style drift; no product proportion changes.",
+    "language": "",
+    "model_attrs": "East Asian, Female, 20-30, Fair skin, Slim build",
+    "negative_constraints": [
+      "no extra props, hands, or decorative objects",
+      "no watermarks, fake logos, or extra text",
+      "no gradient backgrounds unless specified",
+      "no sci-fi or fantasy elements"
+    ],
+    "product_ratio": "25-30%",
+    "whitespace_pct": "45%",
+    "angle": "45° side profile, walking motion",
+    "shot_size": "full shot",
+    "is_infographic": false
+  },
+  "M3": {
+    "size": "1024x1024",
+    "objective": "模特套图: 纯背面或轻微侧后视角, 展示产品背部细节和穿着效果 (禁止大幅度回头)",
+    "style": "ecommerce commercial photography",
+    "prompt": "Professional ecommerce product photography, rear view, head straight or slight turn (<45°) angle, full shot, product occupies 30-35%, whitespace 45%+.",
+    "camera": "Canon EOS R5, 85mm f/1.2, rear view, head straight or slight turn (<45°) angle, full shot",
+    "lighting": "studio lighting 5500K, soft diffused",
+    "composition": "product occupies 30-35% of frame, whitespace 45%+, clean centered composition",
+    "background": "#FFFFFF clean seamless studio background",
+    "color_control": [
+      "#FFFFFF",
+      "#2D2D2D",
+      "#7A9E7E",
+      "#F5F1E8"
+    ],
+    "product_lock_rules": [
+      "preserve model identity exactly — same face, body type, skin tone, hair",
+      "preserve product exactly as in the reference image",
+      "only change pose, camera angle, and scene context"
+    ],
+    "style_lock": "Campaign Style Lock: consistent premium 运动鞋 ecommerce visual system across entire set; fixed palette: bg #FFFFFF, text #2D2D2D, accent #7A9E7E, secondary #F5F1E8; tone: neutral-cool, 5500K; fonts: headlines: Didot serif; body/labels: SF Pro Display sans-serif; no third font family; backgrounds: primary: #FFFFFF clean studio; alternate 1: #F5F1E8; alternate 2: #FFFFFF; strict rotation across images; lighting: neutral-cool, 5500K studio lighting; consistent shadow softness and direction across all images; layout: generous whitespace (45-50%+); rounded rectangular info labels (8px corner radius); clean grid-based layouts; consistent margin/padding across all screens; icons: thin-line icons, 2px stroke weight, consistent style; color: #7A9E7E; no filled icons, no mixed icon styles; product: stable product scale and placement; product material and finish consistently rendered; product angle varies per screen per multi-angle rules; STRICTLY NO: no color palette changes; no mixed font families; no random backgrounds; no inconsistent lighting direction or color temperature; no mismatched icon styles; no decoration style drift; no product proportion changes.",
+    "language": "",
+    "model_attrs": "East Asian, Female, 20-30, Fair skin, Slim build",
+    "negative_constraints": [
+      "no extra props, hands, or decorative objects",
+      "no watermarks, fake logos, or extra text",
+      "no gradient backgrounds unless specified",
+      "no sci-fi or fantasy elements"
+    ],
+    "product_ratio": "30-35%",
+    "whitespace_pct": "45%",
+    "angle": "rear view, head straight or slight turn (<45°)",
+    "shot_size": "full shot",
+    "is_infographic": false
+  },
+  "M4": {
+    "size": "1024x1024",
+    "objective": "模特套图: 半身近景, 产品与模特互动特写, 展示细节和使用方式",
+    "style": "ecommerce commercial photography",
+    "prompt": "Professional ecommerce product photography, medium close-up, product interaction angle, medium shot, product occupies 40-45%, whitespace 40%+.",
+    "camera": "Canon EOS R5, 85mm f/1.2, medium close-up, product interaction angle, medium shot",
+    "lighting": "studio lighting 5500K, soft diffused",
+    "composition": "product occupies 40-45% of frame, whitespace 40%+, clean centered composition",
+    "background": "#FFFFFF clean seamless studio background",
+    "color_control": [
+      "#FFFFFF",
+      "#2D2D2D",
+      "#7A9E7E",
+      "#F5F1E8"
+    ],
+    "product_lock_rules": [
+      "preserve model identity exactly — same face, body type, skin tone, hair",
+      "preserve product exactly as in the reference image",
+      "only change pose, camera angle, and scene context"
+    ],
+    "style_lock": "Campaign Style Lock: consistent premium 运动鞋 ecommerce visual system across entire set; fixed palette: bg #FFFFFF, text #2D2D2D, accent #7A9E7E, secondary #F5F1E8; tone: neutral-cool, 5500K; fonts: headlines: Didot serif; body/labels: SF Pro Display sans-serif; no third font family; backgrounds: primary: #FFFFFF clean studio; alternate 1: #F5F1E8; alternate 2: #FFFFFF; strict rotation across images; lighting: neutral-cool, 5500K studio lighting; consistent shadow softness and direction across all images; layout: generous whitespace (45-50%+); rounded rectangular info labels (8px corner radius); clean grid-based layouts; consistent margin/padding across all screens; icons: thin-line icons, 2px stroke weight, consistent style; color: #7A9E7E; no filled icons, no mixed icon styles; product: stable product scale and placement; product material and finish consistently rendered; product angle varies per screen per multi-angle rules; STRICTLY NO: no color palette changes; no mixed font families; no random backgrounds; no inconsistent lighting direction or color temperature; no mismatched icon styles; no decoration style drift; no product proportion changes.",
+    "language": "",
+    "model_attrs": "East Asian, Female, 20-30, Fair skin, Slim build",
+    "negative_constraints": [
+      "no extra props, hands, or decorative objects",
+      "no watermarks, fake logos, or extra text",
+      "no gradient backgrounds unless specified",
+      "no sci-fi or fantasy elements"
+    ],
+    "product_ratio": "40-45%",
+    "whitespace_pct": "40%",
+    "angle": "medium close-up, product interaction",
+    "shot_size": "medium shot",
+    "is_infographic": false
+  },
+  "M5": {
+    "size": "1024x1536",
+    "objective": "模特套图: 动态生活场景, 自然抓拍感, 展示产品在日常中的真实效果",
+    "style": "ecommerce commercial photography",
+    "prompt": "Professional ecommerce product photography, dynamic lifestyle, candid moment angle, full shot, product occupies 20-25%, whitespace 50%+.",
+    "camera": "Canon EOS R5, 85mm f/1.2, dynamic lifestyle, candid moment angle, full shot",
+    "lighting": "studio lighting 5500K, soft diffused",
+    "composition": "product occupies 20-25% of frame, whitespace 50%+, clean centered composition",
+    "background": "#FFFFFF clean seamless studio background",
+    "color_control": [
+      "#FFFFFF",
+      "#2D2D2D",
+      "#7A9E7E",
+      "#F5F1E8"
+    ],
+    "product_lock_rules": [
+      "preserve model identity exactly — same face, body type, skin tone, hair",
+      "preserve product exactly as in the reference image",
+      "only change pose, camera angle, and scene context"
+    ],
+    "style_lock": "Campaign Style Lock: consistent premium 运动鞋 ecommerce visual system across entire set; fixed palette: bg #FFFFFF, text #2D2D2D, accent #7A9E7E, secondary #F5F1E8; tone: neutral-cool, 5500K; fonts: headlines: Didot serif; body/labels: SF Pro Display sans-serif; no third font family; backgrounds: primary: #FFFFFF clean studio; alternate 1: #F5F1E8; alternate 2: #FFFFFF; strict rotation across images; lighting: neutral-cool, 5500K studio lighting; consistent shadow softness and direction across all images; layout: generous whitespace (45-50%+); rounded rectangular info labels (8px corner radius); clean grid-based layouts; consistent margin/padding across all screens; icons: thin-line icons, 2px stroke weight, consistent style; color: #7A9E7E; no filled icons, no mixed icon styles; product: stable product scale and placement; product material and finish consistently rendered; product angle varies per screen per multi-angle rules; STRICTLY NO: no color palette changes; no mixed font families; no random backgrounds; no inconsistent lighting direction or color temperature; no mismatched icon styles; no decoration style drift; no product proportion changes.",
+    "language": "",
+    "model_attrs": "East Asian, Female, 20-30, Fair skin, Slim build",
+    "negative_constraints": [
+      "no extra props, hands, or decorative objects",
+      "no watermarks, fake logos, or extra text",
+      "no gradient backgrounds unless specified",
+      "no sci-fi or fantasy elements"
+    ],
+    "product_ratio": "20-25%",
+    "whitespace_pct": "50%",
+    "angle": "dynamic lifestyle, candid moment",
+    "shot_size": "full shot",
+    "is_infographic": false
+  }
+}

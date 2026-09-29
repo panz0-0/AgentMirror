@@ -1,0 +1,77 @@
+# ── 敏感配置（勿提交，本地 .env 保持不变）──
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.local
+**/.env.*.local
+**/credentials.json
+**/*secret*
+**/*.pem
+**/*.key
+
+# ── Backend (fitMirror-backend) ──
+fitMirror-backend/.venv/
+fitMirror-backend/.env
+fitMirror-backend/*.db
+fitMirror-backend/**/*.db
+fitMirror-backend/**/__pycache__/
+fitMirror-backend/**/*.pyc
+fitMirror-backend/.pytest_cache/
+fitMirror-backend/.mypy_cache/
+fitMirror-backend/.ruff_cache/
+# storage/ 随仓库提供演示数据；忽略生成图片和运行时临时文件
+fitMirror-backend/storage/generated/
+fitMirror-backend/storage/workspaces/
+fitMirror-backend/storage/**/*.tmp
+fitMirror-backend/storage/**/*.log
+fitMirror-backend/uv.lock
+
+# ── Legacy ──
+backend/
+
+# ── Frontend ──
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+
+# ── Python / 工具 ──
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.cover
+
+# ── IDE / 系统 ──
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── 日志与临时文件 ──
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ── 数据库 / 运行时 ──
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Cursor / 本地工作区 ──
+.cursor/
+_agentflow_review/

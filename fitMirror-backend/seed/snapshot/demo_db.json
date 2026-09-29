@@ -1,0 +1,5838 @@
+{
+  "version": 1,
+  "exported_at": "2026-07-12T18:25:11.131186",
+  "tables": {
+    "skus": [
+      {
+        "id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "sku_code": "TOP-001",
+        "name": "针织开衫外套-测试-edited",
+        "category": "女装/上衣",
+        "style": "温馨 cozy warm",
+        "platform": "淘宝",
+        "language": "中文",
+        "model_attrs": "亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材",
+        "additional_requirements": "",
+        "model_scene": "居家",
+        "shooting_style": "棚拍",
+        "face_visible": "show",
+        "source_image_path": "storage/uploads/45e5729ed50c470dbbcdb1ab48ea77d4/1783562851895.jpg",
+        "status": "generated",
+        "metadata": {
+          "workspace": "storage/workspaces/45e5729ed50c470dbbcdb1ab48ea77d4",
+          "image_hash": "0011000000110000111000001111000011110100110101001101110001101000"
+        },
+        "created_at": "2026-07-09T09:54:09",
+        "updated_at": "2026-07-11T16:32:57"
+      },
+      {
+        "id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "sku_code": "DRESS-002",
+        "name": "简约黑色吊带裙",
+        "category": "女装/连衣裙",
+        "style": "简约 modern minimal",
+        "platform": "淘宝",
+        "language": "中文",
+        "model_attrs": "亚洲女性, 25岁, 身高165cm, 体重55kg, 大胸丰满翘臀身材",
+        "additional_requirements": "",
+        "model_scene": "居家",
+        "shooting_style": "棚拍",
+        "face_visible": "show",
+        "source_image_path": "storage/uploads/58963cd32ffe42209d0d3457c3f74ad3/1783566962348.jpg",
+        "status": "generated",
+        "metadata": {
+          "workspace": "storage/workspaces/58963cd32ffe42209d0d3457c3f74ad3",
+          "image_hash": "1000100111010001011000010110000111110001110100011101000111100001"
+        },
+        "created_at": "2026-07-09T09:54:09",
+        "updated_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": "6c90d7ac51704a9287e43bbd1540c254",
+        "sku_code": "DRESS-001",
+        "name": "法式碎花连衣裙",
+        "category": "女装/连衣裙",
+        "style": "清新 fresh natural",
+        "platform": "淘宝",
+        "language": "中文",
+        "model_attrs": "亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材",
+        "additional_requirements": "",
+        "model_scene": "居家",
+        "shooting_style": "棚拍",
+        "face_visible": "show",
+        "source_image_path": "storage/uploads/6c90d7ac51704a9287e43bbd1540c254/1783571388993.jpg",
+        "status": "generated",
+        "metadata": {
+          "workspace": "storage/workspaces/6c90d7ac51704a9287e43bbd1540c254",
+          "image_hash": "1101101101110011111100110111001100111000111100001100000001110110"
+        },
+        "created_at": "2026-07-09T09:54:09",
+        "updated_at": "2026-07-09T12:34:45"
+      },
+      {
+        "id": "853e609b07ce4d8896f0563ac5c0a587",
+        "sku_code": "BAG-001",
+        "name": "简约托特包",
+        "category": "包袋/手袋",
+        "style": "简约 modern minimal",
+        "platform": "淘宝",
+        "language": "中文",
+        "model_attrs": "亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材",
+        "additional_requirements": "",
+        "model_scene": "居家",
+        "shooting_style": "棚拍",
+        "face_visible": "show",
+        "source_image_path": "storage/uploads/853e609b07ce4d8896f0563ac5c0a587/1783680375647.jpg",
+        "status": "analyzed",
+        "metadata": {
+          "workspace": "storage/workspaces/853e609b07ce4d8896f0563ac5c0a587",
+          "image_hash": "1111110011110100110011000001010000110010000111101000111011110111"
+        },
+        "created_at": "2026-07-09T09:54:09",
+        "updated_at": "2026-07-10T18:47:07"
+      },
+      {
+        "id": "86e327906f224f2dbd8c12b45bebd2db",
+        "sku_code": "SPORT-001",
+        "name": "运动休闲卫衣",
+        "category": "运动/健身",
+        "style": "运动 athletic",
+        "platform": "淘宝",
+        "language": "中文",
+        "model_attrs": "亚洲女性, 22岁, 身高168cm, 体重58kg, 标准身材",
+        "additional_requirements": "",
+        "model_scene": "居家",
+        "shooting_style": "棚拍",
+        "face_visible": "show",
+        "source_image_path": "storage/uploads/86e327906f224f2dbd8c12b45bebd2db/SPORT-001.png",
+        "status": "ready",
+        "metadata": {
+          "workspace": "storage/workspaces/86e327906f224f2dbd8c12b45bebd2db",
+          "image_hash": "0000000000001100001100100111000101110001000101100111000001110000"
+        },
+        "created_at": "2026-07-09T09:54:09",
+        "updated_at": "2026-07-09T11:24:32"
+      },
+      {
+        "id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "sku_code": "PANTS-001",
+        "name": "高腰直筒牛仔裤",
+        "category": "男装/裤装",
+        "style": "街头 urban street",
+        "platform": "淘宝",
+        "language": "中文",
+        "model_attrs": "亚洲男性, 28岁, 身高175cm, 体重70kg, 标准身材",
+        "additional_requirements": "",
+        "model_scene": "居家",
+        "shooting_style": "棚拍",
+        "face_visible": "show",
+        "source_image_path": "storage/uploads/c2fc18f48f0f4eeaa74c8092fb9dd5df/1783573224788.jpg",
+        "status": "generated",
+        "metadata": {
+          "workspace": "storage/workspaces/c2fc18f48f0f4eeaa74c8092fb9dd5df",
+          "image_hash": "1111000011010000110100001011000010110000101100101011000011000100"
+        },
+        "created_at": "2026-07-09T09:54:09",
+        "updated_at": "2026-07-09T13:06:28"
+      }
+    ],
+    "sku_artifacts": [
+      {
+        "id": 1,
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "stage": 1,
+        "file_path": "storage/workspaces/45e5729ed50c470dbbcdb1ab48ea77d4/product.json",
+        "version": 1,
+        "created_at": "2026-07-09T10:09:11"
+      },
+      {
+        "id": 2,
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "stage": 2,
+        "file_path": "storage/workspaces/45e5729ed50c470dbbcdb1ab48ea77d4/campaign.json",
+        "version": 1,
+        "created_at": "2026-07-09T10:09:11"
+      },
+      {
+        "id": 3,
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "stage": 1,
+        "file_path": "storage/workspaces/45e5729ed50c470dbbcdb1ab48ea77d4/product.json",
+        "version": 1,
+        "created_at": "2026-07-09T10:09:11"
+      },
+      {
+        "id": 4,
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "stage": 2,
+        "file_path": "storage/workspaces/45e5729ed50c470dbbcdb1ab48ea77d4/campaign.json",
+        "version": 1,
+        "created_at": "2026-07-09T10:09:11"
+      },
+      {
+        "id": 5,
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "stage": 3,
+        "file_path": "storage/workspaces/45e5729ed50c470dbbcdb1ab48ea77d4/prompts.json",
+        "version": 1,
+        "created_at": "2026-07-09T10:26:50"
+      },
+      {
+        "id": 6,
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "stage": 3,
+        "file_path": "storage/workspaces/45e5729ed50c470dbbcdb1ab48ea77d4/prompts.json",
+        "version": 1,
+        "created_at": "2026-07-09T10:27:10"
+      },
+      {
+        "id": 7,
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "stage": 1,
+        "file_path": "storage/workspaces/6c90d7ac51704a9287e43bbd1540c254/product.json",
+        "version": 1,
+        "created_at": "2026-07-09T10:27:38"
+      },
+      {
+        "id": 8,
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "stage": 2,
+        "file_path": "storage/workspaces/6c90d7ac51704a9287e43bbd1540c254/campaign.json",
+        "version": 1,
+        "created_at": "2026-07-09T10:27:38"
+      },
+      {
+        "id": 9,
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "stage": 3,
+        "file_path": "storage/workspaces/6c90d7ac51704a9287e43bbd1540c254/prompts.json",
+        "version": 1,
+        "created_at": "2026-07-09T10:28:52"
+      },
+      {
+        "id": 10,
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "stage": 1,
+        "file_path": "storage/workspaces/58963cd32ffe42209d0d3457c3f74ad3/product.json",
+        "version": 1,
+        "created_at": "2026-07-09T11:17:14"
+      },
+      {
+        "id": 11,
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "stage": 2,
+        "file_path": "storage/workspaces/58963cd32ffe42209d0d3457c3f74ad3/campaign.json",
+        "version": 1,
+        "created_at": "2026-07-09T11:17:14"
+      },
+      {
+        "id": 12,
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "stage": 3,
+        "file_path": "storage/workspaces/58963cd32ffe42209d0d3457c3f74ad3/prompts.json",
+        "version": 1,
+        "created_at": "2026-07-09T11:27:09"
+      },
+      {
+        "id": 13,
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "stage": 3,
+        "file_path": "storage/workspaces/58963cd32ffe42209d0d3457c3f74ad3/prompts.json",
+        "version": 1,
+        "created_at": "2026-07-09T12:09:43"
+      },
+      {
+        "id": 14,
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "stage": 3,
+        "file_path": "storage/workspaces/58963cd32ffe42209d0d3457c3f74ad3/prompts.json",
+        "version": 1,
+        "created_at": "2026-07-09T12:09:55"
+      },
+      {
+        "id": 15,
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "stage": 1,
+        "file_path": "storage/workspaces/6c90d7ac51704a9287e43bbd1540c254/product.json",
+        "version": 1,
+        "created_at": "2026-07-09T12:30:23"
+      },
+      {
+        "id": 16,
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "stage": 2,
+        "file_path": "storage/workspaces/6c90d7ac51704a9287e43bbd1540c254/campaign.json",
+        "version": 1,
+        "created_at": "2026-07-09T12:30:23"
+      },
+      {
+        "id": 17,
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "stage": 3,
+        "file_path": "storage/workspaces/6c90d7ac51704a9287e43bbd1540c254/prompts.json",
+        "version": 1,
+        "created_at": "2026-07-09T12:30:32"
+      },
+      {
+        "id": 18,
+        "sku_id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "stage": 1,
+        "file_path": "storage/workspaces/c2fc18f48f0f4eeaa74c8092fb9dd5df/product.json",
+        "version": 1,
+        "created_at": "2026-07-09T13:00:55"
+      },
+      {
+        "id": 19,
+        "sku_id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "stage": 2,
+        "file_path": "storage/workspaces/c2fc18f48f0f4eeaa74c8092fb9dd5df/campaign.json",
+        "version": 1,
+        "created_at": "2026-07-09T13:00:55"
+      },
+      {
+        "id": 20,
+        "sku_id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "stage": 3,
+        "file_path": "storage/workspaces/c2fc18f48f0f4eeaa74c8092fb9dd5df/prompts.json",
+        "version": 1,
+        "created_at": "2026-07-09T13:02:48"
+      },
+      {
+        "id": 21,
+        "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+        "stage": 1,
+        "file_path": "storage/workspaces/853e609b07ce4d8896f0563ac5c0a587/product.json",
+        "version": 1,
+        "created_at": "2026-07-10T18:47:07"
+      },
+      {
+        "id": 22,
+        "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+        "stage": 2,
+        "file_path": "storage/workspaces/853e609b07ce4d8896f0563ac5c0a587/campaign.json",
+        "version": 1,
+        "created_at": "2026-07-10T18:47:07"
+      },
+      {
+        "id": 23,
+        "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+        "stage": 3,
+        "file_path": "storage/workspaces/853e609b07ce4d8896f0563ac5c0a587/prompts.json",
+        "version": 1,
+        "created_at": "2026-07-10T18:49:48"
+      }
+    ],
+    "generation_jobs": [
+      {
+        "id": "0098dbdc0cc54a1d9485952a4b119670",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "done",
+        "graph_thread_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "current_node": "done",
+        "progress_json": {
+          "done": 6,
+          "codes": [
+            "product_ref",
+            "H1",
+            "H2",
+            "H3",
+            "H4",
+            "H5"
+          ],
+          "stage": "done",
+          "total": 6,
+          "percent": 100,
+          "complete": true
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T11:04:13",
+        "finished_at": "2026-07-09T03:04:15"
+      },
+      {
+        "id": "2ad2c6367ac44fa2a64e5c799ccc03ad",
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "paused",
+        "graph_thread_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "current_node": "prompts",
+        "progress_json": {
+          "stage": "prompts",
+          "prompts": true
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T10:27:27",
+        "finished_at": null
+      },
+      {
+        "id": "2b35023bcd1e4fd093dacb6adc5c03ab",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "done",
+        "graph_thread_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "current_node": "done",
+        "progress_json": {
+          "done": 6,
+          "codes": [
+            "product_ref",
+            "H1",
+            "H2",
+            "H3",
+            "H4",
+            "H5"
+          ],
+          "stage": "done",
+          "total": 6,
+          "percent": 100,
+          "complete": true
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T12:14:18",
+        "finished_at": "2026-07-09T04:14:20"
+      },
+      {
+        "id": "4cc34854302b4922a7c4fb1db7939439",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "done",
+        "graph_thread_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "current_node": "done",
+        "progress_json": {
+          "done": 6,
+          "codes": [
+            "product_ref",
+            "H1",
+            "H2",
+            "H3",
+            "H4",
+            "H5"
+          ],
+          "stage": "done",
+          "total": 6,
+          "percent": 100,
+          "complete": true
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T12:09:54",
+        "finished_at": "2026-07-09T04:14:19"
+      },
+      {
+        "id": "56ad5d1cdcbf4ca887d06ea2cd73efbe",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "paused",
+        "graph_thread_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "current_node": "prompts",
+        "progress_json": {
+          "stage": "prompts",
+          "awaiting_confirm": "prompts"
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T11:29:12",
+        "finished_at": null
+      },
+      {
+        "id": "59b6929b6470454c821cd66b29610e66",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "paused",
+        "graph_thread_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "current_node": "prompts",
+        "progress_json": {
+          "stage": "prompts",
+          "prompts": true
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T11:16:58",
+        "finished_at": null
+      },
+      {
+        "id": "6da8a7c9461247b482729aa4a9708763",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "paused",
+        "graph_thread_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "current_node": "campaign",
+        "progress_json": {
+          "stage": "campaign",
+          "awaiting_confirm": "campaign"
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T10:08:38",
+        "finished_at": null
+      },
+      {
+        "id": "7284c018b581485b8f393b304312c1ba",
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "paused",
+        "graph_thread_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "current_node": "prompts",
+        "progress_json": {
+          "stage": "prompts",
+          "awaiting_confirm": "prompts"
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T12:30:23",
+        "finished_at": null
+      },
+      {
+        "id": "755a4166e80e4597b83cc7f850774461",
+        "sku_id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "done",
+        "graph_thread_id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "current_node": "done",
+        "progress_json": {
+          "done": 6,
+          "codes": [
+            "product_ref",
+            "H1",
+            "H2",
+            "H3",
+            "H4",
+            "H5"
+          ],
+          "stage": "done",
+          "total": 6,
+          "percent": 100,
+          "complete": true
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T13:00:39",
+        "finished_at": "2026-07-09T05:06:29"
+      },
+      {
+        "id": "7cab69e12c484545aa6e8b744c36d36f",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "paused",
+        "graph_thread_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "current_node": "done",
+        "progress_json": {
+          "stage": "prompts",
+          "awaiting_confirm": "prompts"
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T10:27:09",
+        "finished_at": "2026-07-09T02:38:44"
+      },
+      {
+        "id": "8e5f94a779c64aa89496aa04d5aa857a",
+        "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "paused",
+        "graph_thread_id": "853e609b07ce4d8896f0563ac5c0a587",
+        "current_node": "prompts",
+        "progress_json": {
+          "stage": "prompts",
+          "prompts": true
+        },
+        "error_msg": null,
+        "created_at": "2026-07-10T18:46:52",
+        "finished_at": null
+      },
+      {
+        "id": "a68a0d6bd9f44e0ebdf07a79fcc40a4e",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "paused",
+        "graph_thread_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "current_node": "prompts",
+        "progress_json": {
+          "stage": "prompts",
+          "prompts": true
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T10:09:11",
+        "finished_at": null
+      },
+      {
+        "id": "b1ee40083bc64d609b0928e52d9817b8",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "paused",
+        "graph_thread_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "current_node": "done",
+        "progress_json": {
+          "done": 6,
+          "codes": [
+            "product_ref",
+            "H1",
+            "H2",
+            "H3",
+            "H4",
+            "H5"
+          ],
+          "stage": "done",
+          "total": 6,
+          "percent": 100,
+          "complete": true
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T11:03:09",
+        "finished_at": "2026-07-09T03:03:11"
+      },
+      {
+        "id": "e229c93bb1ad4b14a1734f9239e911bd",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "paused",
+        "graph_thread_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "current_node": "prompts",
+        "progress_json": {
+          "stage": "prompts",
+          "prompts": true
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T12:09:42",
+        "finished_at": null
+      },
+      {
+        "id": "f63c94f4ea4f4a22a8fa0acee16933be",
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "job_type": "ops",
+        "mode": "hero",
+        "status": "done",
+        "graph_thread_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "current_node": "done",
+        "progress_json": {
+          "done": 6,
+          "codes": [
+            "product_ref",
+            "H1",
+            "H2",
+            "H3",
+            "H4",
+            "H5"
+          ],
+          "stage": "done",
+          "total": 6,
+          "percent": 100,
+          "complete": true
+        },
+        "error_msg": null,
+        "created_at": "2026-07-09T12:30:30",
+        "finished_at": "2026-07-09T04:34:45"
+      }
+    ],
+    "generated_images": [
+      {
+        "id": 1,
+        "job_id": "7cab69e12c484545aa6e8b744c36d36f",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H1",
+        "file_path": "storage/generated/7cab69e12c484545aa6e8b744c36d36f/H1.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T10:38:43"
+      },
+      {
+        "id": 2,
+        "job_id": "7cab69e12c484545aa6e8b744c36d36f",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H2",
+        "file_path": "storage/generated/7cab69e12c484545aa6e8b744c36d36f/H2.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T10:38:43"
+      },
+      {
+        "id": 3,
+        "job_id": "7cab69e12c484545aa6e8b744c36d36f",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H3",
+        "file_path": "storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T10:38:43"
+      },
+      {
+        "id": 4,
+        "job_id": "7cab69e12c484545aa6e8b744c36d36f",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H4",
+        "file_path": "storage/generated/7cab69e12c484545aa6e8b744c36d36f/H4.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T10:38:43"
+      },
+      {
+        "id": 5,
+        "job_id": "7cab69e12c484545aa6e8b744c36d36f",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H5",
+        "file_path": "storage/generated/7cab69e12c484545aa6e8b744c36d36f/H5.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T10:38:43"
+      },
+      {
+        "id": 6,
+        "job_id": "7cab69e12c484545aa6e8b744c36d36f",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "product_ref",
+        "file_path": "storage/generated/7cab69e12c484545aa6e8b744c36d36f/product_ref.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T10:38:43"
+      },
+      {
+        "id": 7,
+        "job_id": "b1ee40083bc64d609b0928e52d9817b8",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H1",
+        "file_path": "storage/generated/b1ee40083bc64d609b0928e52d9817b8/H1.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:03:11"
+      },
+      {
+        "id": 8,
+        "job_id": "b1ee40083bc64d609b0928e52d9817b8",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H2",
+        "file_path": "storage/generated/b1ee40083bc64d609b0928e52d9817b8/H2.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:03:11"
+      },
+      {
+        "id": 9,
+        "job_id": "b1ee40083bc64d609b0928e52d9817b8",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H3",
+        "file_path": "storage/generated/b1ee40083bc64d609b0928e52d9817b8/H3.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:03:11"
+      },
+      {
+        "id": 10,
+        "job_id": "b1ee40083bc64d609b0928e52d9817b8",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H4",
+        "file_path": "storage/generated/b1ee40083bc64d609b0928e52d9817b8/H4.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:03:11"
+      },
+      {
+        "id": 11,
+        "job_id": "b1ee40083bc64d609b0928e52d9817b8",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H5",
+        "file_path": "storage/generated/b1ee40083bc64d609b0928e52d9817b8/H5.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:03:11"
+      },
+      {
+        "id": 12,
+        "job_id": "b1ee40083bc64d609b0928e52d9817b8",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "product_ref",
+        "file_path": "storage/generated/b1ee40083bc64d609b0928e52d9817b8/product_ref.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:03:11"
+      },
+      {
+        "id": 13,
+        "job_id": "0098dbdc0cc54a1d9485952a4b119670",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H1",
+        "file_path": "storage/generated/0098dbdc0cc54a1d9485952a4b119670/H1.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:04:14"
+      },
+      {
+        "id": 14,
+        "job_id": "0098dbdc0cc54a1d9485952a4b119670",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H2",
+        "file_path": "storage/generated/0098dbdc0cc54a1d9485952a4b119670/H2.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:04:14"
+      },
+      {
+        "id": 15,
+        "job_id": "0098dbdc0cc54a1d9485952a4b119670",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H3",
+        "file_path": "storage/generated/0098dbdc0cc54a1d9485952a4b119670/H3.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:04:14"
+      },
+      {
+        "id": 16,
+        "job_id": "0098dbdc0cc54a1d9485952a4b119670",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H4",
+        "file_path": "storage/generated/0098dbdc0cc54a1d9485952a4b119670/H4.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:04:14"
+      },
+      {
+        "id": 17,
+        "job_id": "0098dbdc0cc54a1d9485952a4b119670",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "H5",
+        "file_path": "storage/generated/0098dbdc0cc54a1d9485952a4b119670/H5.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:04:14"
+      },
+      {
+        "id": 18,
+        "job_id": "0098dbdc0cc54a1d9485952a4b119670",
+        "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+        "image_code": "product_ref",
+        "file_path": "storage/generated/0098dbdc0cc54a1d9485952a4b119670/product_ref.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T11:04:14"
+      },
+      {
+        "id": 19,
+        "job_id": "4cc34854302b4922a7c4fb1db7939439",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "H1",
+        "file_path": "storage/generated/4cc34854302b4922a7c4fb1db7939439/H1.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 20,
+        "job_id": "4cc34854302b4922a7c4fb1db7939439",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "H2",
+        "file_path": "storage/generated/4cc34854302b4922a7c4fb1db7939439/H2.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 21,
+        "job_id": "4cc34854302b4922a7c4fb1db7939439",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "H3",
+        "file_path": "storage/generated/4cc34854302b4922a7c4fb1db7939439/H3.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 22,
+        "job_id": "4cc34854302b4922a7c4fb1db7939439",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "H4",
+        "file_path": "storage/generated/4cc34854302b4922a7c4fb1db7939439/H4.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 23,
+        "job_id": "4cc34854302b4922a7c4fb1db7939439",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "H5",
+        "file_path": "storage/generated/4cc34854302b4922a7c4fb1db7939439/H5.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 24,
+        "job_id": "4cc34854302b4922a7c4fb1db7939439",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "product_ref",
+        "file_path": "storage/generated/4cc34854302b4922a7c4fb1db7939439/product_ref.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 25,
+        "job_id": "2b35023bcd1e4fd093dacb6adc5c03ab",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "H1",
+        "file_path": "storage/generated/2b35023bcd1e4fd093dacb6adc5c03ab/H1.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 26,
+        "job_id": "2b35023bcd1e4fd093dacb6adc5c03ab",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "H2",
+        "file_path": "storage/generated/2b35023bcd1e4fd093dacb6adc5c03ab/H2.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 27,
+        "job_id": "2b35023bcd1e4fd093dacb6adc5c03ab",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "H3",
+        "file_path": "storage/generated/2b35023bcd1e4fd093dacb6adc5c03ab/H3.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 28,
+        "job_id": "2b35023bcd1e4fd093dacb6adc5c03ab",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "H4",
+        "file_path": "storage/generated/2b35023bcd1e4fd093dacb6adc5c03ab/H4.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 29,
+        "job_id": "2b35023bcd1e4fd093dacb6adc5c03ab",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "H5",
+        "file_path": "storage/generated/2b35023bcd1e4fd093dacb6adc5c03ab/H5.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 30,
+        "job_id": "2b35023bcd1e4fd093dacb6adc5c03ab",
+        "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+        "image_code": "product_ref",
+        "file_path": "storage/generated/2b35023bcd1e4fd093dacb6adc5c03ab/product_ref.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:14:19"
+      },
+      {
+        "id": 31,
+        "job_id": "f63c94f4ea4f4a22a8fa0acee16933be",
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "image_code": "H1",
+        "file_path": "storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/H1.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:34:45"
+      },
+      {
+        "id": 32,
+        "job_id": "f63c94f4ea4f4a22a8fa0acee16933be",
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "image_code": "H2",
+        "file_path": "storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/H2.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:34:45"
+      },
+      {
+        "id": 33,
+        "job_id": "f63c94f4ea4f4a22a8fa0acee16933be",
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "image_code": "H3",
+        "file_path": "storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/H3.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:34:45"
+      },
+      {
+        "id": 34,
+        "job_id": "f63c94f4ea4f4a22a8fa0acee16933be",
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "image_code": "H4",
+        "file_path": "storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/H4.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:34:45"
+      },
+      {
+        "id": 35,
+        "job_id": "f63c94f4ea4f4a22a8fa0acee16933be",
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "image_code": "H5",
+        "file_path": "storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/H5.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:34:45"
+      },
+      {
+        "id": 36,
+        "job_id": "f63c94f4ea4f4a22a8fa0acee16933be",
+        "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+        "image_code": "product_ref",
+        "file_path": "storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/product_ref.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T12:34:45"
+      },
+      {
+        "id": 37,
+        "job_id": "755a4166e80e4597b83cc7f850774461",
+        "sku_id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "image_code": "H1",
+        "file_path": "storage/generated/755a4166e80e4597b83cc7f850774461/H1.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T13:06:28"
+      },
+      {
+        "id": 38,
+        "job_id": "755a4166e80e4597b83cc7f850774461",
+        "sku_id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "image_code": "H2",
+        "file_path": "storage/generated/755a4166e80e4597b83cc7f850774461/H2.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T13:06:28"
+      },
+      {
+        "id": 39,
+        "job_id": "755a4166e80e4597b83cc7f850774461",
+        "sku_id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "image_code": "H3",
+        "file_path": "storage/generated/755a4166e80e4597b83cc7f850774461/H3.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T13:06:28"
+      },
+      {
+        "id": 40,
+        "job_id": "755a4166e80e4597b83cc7f850774461",
+        "sku_id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "image_code": "H4",
+        "file_path": "storage/generated/755a4166e80e4597b83cc7f850774461/H4.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T13:06:28"
+      },
+      {
+        "id": 41,
+        "job_id": "755a4166e80e4597b83cc7f850774461",
+        "sku_id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "image_code": "H5",
+        "file_path": "storage/generated/755a4166e80e4597b83cc7f850774461/H5.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T13:06:28"
+      },
+      {
+        "id": 42,
+        "job_id": "755a4166e80e4597b83cc7f850774461",
+        "sku_id": "c2fc18f48f0f4eeaa74c8092fb9dd5df",
+        "image_code": "product_ref",
+        "file_path": "storage/generated/755a4166e80e4597b83cc7f850774461/product_ref.png",
+        "prompt_snapshot": null,
+        "created_at": "2026-07-09T13:06:28"
+      }
+    ],
+    "knowledge_docs": [
+      {
+        "id": "4e977ee2dba841d28c1f0337662093ca",
+        "title": "faq_退换货政策.md",
+        "file_path": "storage/knowledge/4e977ee2dba841d28c1f0337662093ca_faq_退换货政策.md",
+        "md5": "c36c0ae30f6ea552ae71fd6df0ead4b7",
+        "doc_type": "faq",
+        "milvus_ids": [
+          "mem_4_0"
+        ],
+        "status": "ready",
+        "created_at": "2026-07-09T09:54:09"
+      },
+      {
+        "id": "5b523bff3b494db194acb37bd08a3885",
+        "title": "policy_发货物流.md",
+        "file_path": "storage/knowledge/5b523bff3b494db194acb37bd08a3885_policy_发货物流.md",
+        "md5": "37b0e9ae4178e768917962147d93c9f2",
+        "doc_type": "policy",
+        "milvus_ids": [
+          "mem_4_0"
+        ],
+        "status": "ready",
+        "created_at": "2026-07-09T09:54:09"
+      },
+      {
+        "id": "90f5f6059bde4c7faf785983938f10ee",
+        "title": "product_商品说明.md",
+        "file_path": "storage/knowledge/90f5f6059bde4c7faf785983938f10ee_product_商品说明.md",
+        "md5": "e0ce24b9160d26e32b288beef40e844a",
+        "doc_type": "product",
+        "milvus_ids": [
+          "mem_4_0"
+        ],
+        "status": "ready",
+        "created_at": "2026-07-09T09:54:09"
+      },
+      {
+        "id": "998e86aaf7e843d5a440781907a710fe",
+        "title": "script_客服话术.txt",
+        "file_path": "storage/knowledge/998e86aaf7e843d5a440781907a710fe_script_客服话术.txt",
+        "md5": "031b71ffa5dd96367288aa5ffa98cc79",
+        "doc_type": "script",
+        "milvus_ids": [
+          "mem_4_0"
+        ],
+        "status": "ready",
+        "created_at": "2026-07-09T09:54:09"
+      },
+      {
+        "id": "9c1cb60d3bfc418a868f67e1b211adcd",
+        "title": "faq_尺码指南.md",
+        "file_path": "storage/knowledge/9c1cb60d3bfc418a868f67e1b211adcd_faq_尺码指南.md",
+        "md5": "84b760b29c2654d772800ab1ed8a190d",
+        "doc_type": "faq",
+        "milvus_ids": [
+          "mem_4_0"
+        ],
+        "status": "ready",
+        "created_at": "2026-07-09T09:54:09"
+      }
+    ],
+    "chat_sessions": [
+      {
+        "id": "0056ffacc3c4412fa5af332796395944",
+        "user_id": "guest",
+        "title": "新的对话",
+        "metadata": null,
+        "created_at": "2026-07-09T12:56:57",
+        "updated_at": "2026-07-09T12:56:57"
+      },
+      {
+        "id": "0421465fb66e48d586c165bb8a9c0177",
+        "user_id": "guest",
+        "title": "相似款测试",
+        "metadata": null,
+        "created_at": "2026-07-12T17:19:15",
+        "updated_at": "2026-07-12T17:19:15"
+      },
+      {
+        "id": "0d7ad6f2f52c491b8fc15104a56357f8",
+        "user_id": "ui_test",
+        "title": "ui",
+        "metadata": null,
+        "created_at": "2026-07-10T14:41:32",
+        "updated_at": "2026-07-10T14:41:32"
+      },
+      {
+        "id": "12b04450d6c048f98b036b125d92ca1e",
+        "user_id": "u_1cbc37374908",
+        "title": "店里还有什么推荐？",
+        "metadata": null,
+        "created_at": "2026-07-10T16:52:36",
+        "updated_at": "2026-07-10T16:53:10"
+      },
+      {
+        "id": "144d6b5813af464cb524162cb1ab8704",
+        "user_id": "guest",
+        "title": "相似款测试",
+        "metadata": null,
+        "created_at": "2026-07-12T17:20:58",
+        "updated_at": "2026-07-12T17:20:58"
+      },
+      {
+        "id": "14d6bd6d717240b78cb0f120a3a6e745",
+        "user_id": "guest",
+        "title": "UI测试",
+        "metadata": null,
+        "created_at": "2026-07-10T20:42:23",
+        "updated_at": "2026-07-10T20:42:23"
+      },
+      {
+        "id": "271f00247e0a4d6aa73cd006b8769fd8",
+        "user_id": "guest",
+        "title": "相似款测试",
+        "metadata": null,
+        "created_at": "2026-07-12T17:25:40",
+        "updated_at": "2026-07-12T17:25:40"
+      },
+      {
+        "id": "2c7b02ceabbf4884824615219f6f396e",
+        "user_id": "test_opt",
+        "title": "opt",
+        "metadata": null,
+        "created_at": "2026-07-10T14:39:05",
+        "updated_at": "2026-07-10T14:39:05"
+      },
+      {
+        "id": "3d05fcfd56d84a54a7f2fe369c8d8808",
+        "user_id": "dbg",
+        "title": "dbg",
+        "metadata": null,
+        "created_at": "2026-07-10T14:36:32",
+        "updated_at": "2026-07-10T14:36:32"
+      },
+      {
+        "id": "40da677e23744a67b2c56aebb70d8bb1",
+        "user_id": "tryon_fix",
+        "title": "tryon",
+        "metadata": null,
+        "created_at": "2026-07-10T16:09:43",
+        "updated_at": "2026-07-10T16:09:43"
+      },
+      {
+        "id": "41116a9780e545d9b990932ac7d71b6c",
+        "user_id": "ui_visual",
+        "title": "视觉测试",
+        "metadata": null,
+        "created_at": "2026-07-10T15:28:10",
+        "updated_at": "2026-07-10T15:28:10"
+      },
+      {
+        "id": "442bb36f809d4813b2a5a43b5016902f",
+        "user_id": "dbg2",
+        "title": "t",
+        "metadata": null,
+        "created_at": "2026-07-10T14:37:05",
+        "updated_at": "2026-07-10T14:37:05"
+      },
+      {
+        "id": "4cfb5c894a684937b91787f1cd614cdd",
+        "user_id": "g",
+        "title": "t",
+        "metadata": null,
+        "created_at": "2026-07-10T16:10:27",
+        "updated_at": "2026-07-10T16:10:27"
+      },
+      {
+        "id": "5249d1be16534093ba2cb40d0065e3b5",
+        "user_id": "guest",
+        "title": "测试",
+        "metadata": null,
+        "created_at": "2026-07-10T15:27:58",
+        "updated_at": "2026-07-10T15:27:58"
+      },
+      {
+        "id": "558bf8b98d884da98a0b91851a0bcac8",
+        "user_id": "sep",
+        "title": "t",
+        "metadata": null,
+        "created_at": "2026-07-10T14:38:26",
+        "updated_at": "2026-07-10T14:38:26"
+      },
+      {
+        "id": "5cac136fd43442249903f49fa330589c",
+        "user_id": "guest",
+        "title": "UI测试",
+        "metadata": null,
+        "created_at": "2026-07-10T23:36:40",
+        "updated_at": "2026-07-10T23:36:40"
+      },
+      {
+        "id": "69063d0972244b50a6a14f97360ea23a",
+        "user_id": "guest",
+        "title": "测试",
+        "metadata": null,
+        "created_at": "2026-07-10T14:40:00",
+        "updated_at": "2026-07-10T14:40:00"
+      },
+      {
+        "id": "73feeefd85764486bb942188d2c28545",
+        "user_id": "http_dbg",
+        "title": "opt",
+        "metadata": null,
+        "created_at": "2026-07-10T14:38:06",
+        "updated_at": "2026-07-10T14:38:06"
+      },
+      {
+        "id": "74fe4854113442918a66add105784b4c",
+        "user_id": "guest",
+        "title": "测试",
+        "metadata": null,
+        "created_at": "2026-07-10T14:35:39",
+        "updated_at": "2026-07-10T14:35:39"
+      },
+      {
+        "id": "754a155573214817ac904a966df5f743",
+        "user_id": "test_opt",
+        "title": "opt",
+        "metadata": null,
+        "created_at": "2026-07-10T14:37:48",
+        "updated_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": "76aa9872cc52419c9fcb19551790a504",
+        "user_id": "guest",
+        "title": "相似款测试",
+        "metadata": null,
+        "created_at": "2026-07-12T17:22:10",
+        "updated_at": "2026-07-12T17:22:10"
+      },
+      {
+        "id": "7abb6d267def49379330b9a590a7d541",
+        "user_id": "u_1cbc37374908",
+        "title": "简约黑色吊带裙有什么搭配建议？",
+        "metadata": null,
+        "created_at": "2026-07-10T15:42:49",
+        "updated_at": "2026-07-10T15:43:12"
+      },
+      {
+        "id": "7bd2ad772c724df68fb51e2210105d8a",
+        "user_id": "test_opt",
+        "title": "opt",
+        "metadata": null,
+        "created_at": "2026-07-10T14:35:49",
+        "updated_at": "2026-07-10T14:35:49"
+      },
+      {
+        "id": "9a0a654647944aa48457dbc311b4eb27",
+        "user_id": "guest",
+        "title": "UI测试",
+        "metadata": null,
+        "created_at": "2026-07-11T16:32:57",
+        "updated_at": "2026-07-11T16:32:57"
+      },
+      {
+        "id": "a0db9e737967421f9e6f73e6f06c7653",
+        "user_id": "guest",
+        "title": "测试",
+        "metadata": null,
+        "created_at": "2026-07-10T16:09:44",
+        "updated_at": "2026-07-10T16:09:44"
+      },
+      {
+        "id": "a239aeb633854c33991e6102b5dcb1e4",
+        "user_id": "tryon_fix",
+        "title": "tryon",
+        "metadata": null,
+        "created_at": "2026-07-10T16:10:26",
+        "updated_at": "2026-07-10T16:10:26"
+      },
+      {
+        "id": "a41bea9c46544f2e8f81b03e17f867f9",
+        "user_id": "guest",
+        "title": "测试",
+        "metadata": null,
+        "created_at": "2026-07-10T14:37:48",
+        "updated_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": "ba6b532589754329a912f63863daa60e",
+        "user_id": "test_opt2",
+        "title": "pants",
+        "metadata": null,
+        "created_at": "2026-07-10T14:39:05",
+        "updated_at": "2026-07-10T14:39:05"
+      },
+      {
+        "id": "bb717a34ce97463f89f94270cc5edb0a",
+        "user_id": "guest",
+        "title": "UI测试",
+        "metadata": null,
+        "created_at": "2026-07-09T09:55:08",
+        "updated_at": "2026-07-09T09:55:08"
+      },
+      {
+        "id": "cebb9fd5789c436fa7a015b54f74d710",
+        "user_id": "tryon_fix",
+        "title": "tryon",
+        "metadata": null,
+        "created_at": "2026-07-10T16:38:09",
+        "updated_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": "ddd1c364f9054f7b804c017769dfee47",
+        "user_id": "t8000",
+        "title": "t",
+        "metadata": null,
+        "created_at": "2026-07-10T14:40:08",
+        "updated_at": "2026-07-10T14:40:08"
+      },
+      {
+        "id": "e99d06ca15fc4e4cbcb0c3f80f5a8cee",
+        "user_id": "guest",
+        "title": "测试",
+        "metadata": null,
+        "created_at": "2026-07-10T16:38:09",
+        "updated_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": "f25683af36d740a19efe47974df473b7",
+        "user_id": "test_bag001",
+        "title": "BAG-001 test",
+        "metadata": null,
+        "created_at": "2026-07-10T19:33:25",
+        "updated_at": "2026-07-10T19:33:25"
+      },
+      {
+        "id": "f80d0a5be87f40099554462a8d99c419",
+        "user_id": "u_acbd0a103db4",
+        "title": "新的对话",
+        "metadata": null,
+        "created_at": "2026-07-10T14:35:25",
+        "updated_at": "2026-07-10T14:35:25"
+      }
+    ],
+    "chat_messages": [
+      {
+        "id": 1,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-09T09:55:08"
+      },
+      {
+        "id": 2,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-09T09:55:08"
+      },
+      {
+        "id": 3,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-09T09:55:08"
+      },
+      {
+        "id": 4,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-09T09:55:08"
+      },
+      {
+        "id": 5,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，**针织开衫外套-测试-edited** 的虚拟试穿效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**\n目前运营台尚未生成模特上身图，先为您展示商品原图；完整效果图可在运营台生成后查看。",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "pending_generation": true
+        },
+        "created_at": "2026-07-09T09:55:08"
+      },
+      {
+        "id": 6,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "这款怎么样",
+        "metadata": {
+          "text": "这款怎么样",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/bb717a34ce97463f89f94270cc5edb0a/test.png"
+        },
+        "created_at": "2026-07-09T09:55:08"
+      },
+      {
+        "id": 7,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，结合您的描述「这款怎么样」，识别到是 **法式碎花连衣裙**（女装/连衣裙）哦～\n货号 **DRESS-001**，是我们店里的正品。\n标准身材参考：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "name": "法式碎花连衣裙",
+          "type": "product_match",
+          "style": "清新 fresh natural",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "6c90d7ac51704a9287e43bbd1540c254"
+            },
+            {
+              "text": "我想买法式碎花连衣裙，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "法式碎花连衣裙有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "distance": 0,
+          "sku_code": "DRESS-001",
+          "image_url": "/api/sku/6c90d7ac51704a9287e43bbd1540c254/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-09T09:55:08"
+      },
+      {
+        "id": 8,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "店里现在有哪些商品？",
+        "metadata": null,
+        "created_at": "2026-07-09T10:24:25"
+      },
+      {
+        "id": 9,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-09T10:24:25"
+      },
+      {
+        "id": 10,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "店里现在有哪些商品？",
+        "metadata": null,
+        "created_at": "2026-07-09T10:24:40"
+      },
+      {
+        "id": 11,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-09T10:24:40"
+      },
+      {
+        "id": 12,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "店里现在有哪些商品？",
+        "metadata": null,
+        "created_at": "2026-07-09T10:24:43"
+      },
+      {
+        "id": 13,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-09T10:24:43"
+      },
+      {
+        "id": 14,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "店里现在有哪些商品？",
+        "metadata": null,
+        "created_at": "2026-07-09T10:24:44"
+      },
+      {
+        "id": 15,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-09T10:24:44"
+      },
+      {
+        "id": 16,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "店里现在有哪些商品？",
+        "metadata": null,
+        "created_at": "2026-07-09T10:24:46"
+      },
+      {
+        "id": 17,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-09T10:24:46"
+      },
+      {
+        "id": 18,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "介绍一下 简约黑色吊带裙",
+        "metadata": null,
+        "created_at": "2026-07-09T12:45:29"
+      },
+      {
+        "id": 19,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **简约黑色吊带裙**（女装/连衣裙）～\n· 货号：**DRESS-002**\n· 风格：简约 modern minimal\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 大胸丰满翘臀身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "简约黑色吊带裙",
+          "type": "product_intro",
+          "style": "简约 modern minimal",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "58963cd32ffe42209d0d3457c3f74ad3"
+            },
+            {
+              "text": "我想买简约黑色吊带裙，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约黑色吊带裙有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-002",
+          "image_url": "/api/sku/58963cd32ffe42209d0d3457c3f74ad3/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-09T12:45:29"
+      },
+      {
+        "id": 20,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "[试穿] 简约黑色吊带裙",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3"
+        },
+        "created_at": "2026-07-09T12:45:49"
+      },
+      {
+        "id": 21,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，这是 **简约黑色吊带裙** 的上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "简约黑色吊带裙",
+          "image_url": "/storage/generated/4cc34854302b4922a7c4fb1db7939439/H1.png"
+        },
+        "created_at": "2026-07-09T12:45:49"
+      },
+      {
+        "id": 22,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "店里还有什么推荐？",
+        "metadata": null,
+        "created_at": "2026-07-09T12:46:13"
+      },
+      {
+        "id": 23,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，除了刚才看的黑色吊带裙，店里还有这5款很受欢迎哦～\n· **法式碎花连衣裙**：温柔浪漫风，约会度假超上镜，支持一键查看试穿效果～\n· **针织开衫外套**：质感软糯，通勤休闲都能搭，叠穿显层次。\n· **运动休闲卫衣 & 简约托特包**：懒人出街CP，舒适不费力，逛街上课都合适。\n· **高腰直筒牛仔裤**：修饰腿型+优化比例，百搭神裤。\n\n亲亲更倾向什么风格或使用场景呢？告诉我您的身高体重和穿搭偏好，我会为您推荐最合适的一款，并提供搭配建议与尺码参考哦～",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-09T12:46:27"
+      },
+      {
+        "id": 24,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "user",
+        "content": "店里现在有哪些商品？",
+        "metadata": null,
+        "created_at": "2026-07-09T12:56:26"
+      },
+      {
+        "id": 25,
+        "session_id": "bb717a34ce97463f89f94270cc5edb0a",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-09T12:56:26"
+      },
+      {
+        "id": 26,
+        "session_id": "0056ffacc3c4412fa5af332796395944",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-09T12:56:57"
+      },
+      {
+        "id": 27,
+        "session_id": "f80d0a5be87f40099554462a8d99c419",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:35:25"
+      },
+      {
+        "id": 28,
+        "session_id": "74fe4854113442918a66add105784b4c",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:35:39"
+      },
+      {
+        "id": 29,
+        "session_id": "74fe4854113442918a66add105784b4c",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:35:39"
+      },
+      {
+        "id": 30,
+        "session_id": "74fe4854113442918a66add105784b4c",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:35:39"
+      },
+      {
+        "id": 31,
+        "session_id": "74fe4854113442918a66add105784b4c",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-10T14:35:39"
+      },
+      {
+        "id": 32,
+        "session_id": "74fe4854113442918a66add105784b4c",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/0098dbdc0cc54a1d9485952a4b119670/H1.png"
+        },
+        "created_at": "2026-07-10T14:35:39"
+      },
+      {
+        "id": 33,
+        "session_id": "74fe4854113442918a66add105784b4c",
+        "role": "user",
+        "content": "这款怎么样？",
+        "metadata": {
+          "text": "这款怎么样？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/74fe4854113442918a66add105784b4c/test.png"
+        },
+        "created_at": "2026-07-10T14:35:39"
+      },
+      {
+        "id": 34,
+        "session_id": "74fe4854113442918a66add105784b4c",
+        "role": "assistant",
+        "content": "亲亲，结合您的描述「这款怎么样？」，识别到是 **简约托特包**（包袋/手袋）哦～\n货号 **BAG-001**，是我们店里的正品。\n标准身材参考：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "name": "简约托特包",
+          "type": "product_match",
+          "style": "简约 modern minimal",
+          "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "853e609b07ce4d8896f0563ac5c0a587"
+            },
+            {
+              "text": "我想买简约托特包，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约托特包有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "包袋/手袋",
+          "distance": 3,
+          "sku_code": "BAG-001",
+          "image_url": "/api/sku/853e609b07ce4d8896f0563ac5c0a587/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:35:39"
+      },
+      {
+        "id": 35,
+        "session_id": "7bd2ad772c724df68fb51e2210105d8a",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:35:49"
+      },
+      {
+        "id": 36,
+        "session_id": "7bd2ad772c724df68fb51e2210105d8a",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:35:49"
+      },
+      {
+        "id": 37,
+        "session_id": "7bd2ad772c724df68fb51e2210105d8a",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:35:49"
+      },
+      {
+        "id": 38,
+        "session_id": "7bd2ad772c724df68fb51e2210105d8a",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T14:35:49"
+      },
+      {
+        "id": 39,
+        "session_id": "7bd2ad772c724df68fb51e2210105d8a",
+        "role": "assistant",
+        "content": "亲亲，马上为您安排虚拟试穿～📸  \n为了给出最贴合的效果，请您简单提供以下信息：\n· 身高 & 体重（或日常常穿尺码）\n· 身材类型（如标准/梨形/苹果形/H型等）\n· 期望风格或搭配需求（通勤/休闲/约会等）\n\n收到后我会立刻为您生成专属上身效果图，并同步推荐最合适尺码与搭配建议～  \n若暂时不确定或需要更详细的视觉预览，也可以直接留言，我会帮您转接人工客服跟进。期待您的回复哦！✨",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-10T14:35:59"
+      },
+      {
+        "id": 40,
+        "session_id": "3d05fcfd56d84a54a7f2fe369c8d8808",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:36:32"
+      },
+      {
+        "id": 41,
+        "session_id": "3d05fcfd56d84a54a7f2fe369c8d8808",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:36:32"
+      },
+      {
+        "id": 42,
+        "session_id": "3d05fcfd56d84a54a7f2fe369c8d8808",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:36:32"
+      },
+      {
+        "id": 43,
+        "session_id": "3d05fcfd56d84a54a7f2fe369c8d8808",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T14:36:32"
+      },
+      {
+        "id": 44,
+        "session_id": "3d05fcfd56d84a54a7f2fe369c8d8808",
+        "role": "assistant",
+        "content": "亲亲，没问题～请点击对话页面的「👗虚拟试穿」功能，上传照片或填写身高体重，即可一键生成专属上身效果图！\n\n若您暂不方便操作，可直接回复您的**身高、体重及日常习惯尺码**，我会马上为您推荐合身版型并发送同款项上参考图。\n\n现在为您生成试穿效果图吗？",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-10T14:36:45"
+      },
+      {
+        "id": 45,
+        "session_id": "442bb36f809d4813b2a5a43b5016902f",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:37:05"
+      },
+      {
+        "id": 46,
+        "session_id": "442bb36f809d4813b2a5a43b5016902f",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:37:05"
+      },
+      {
+        "id": 47,
+        "session_id": "442bb36f809d4813b2a5a43b5016902f",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:37:05"
+      },
+      {
+        "id": 48,
+        "session_id": "442bb36f809d4813b2a5a43b5016902f",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T14:37:05"
+      },
+      {
+        "id": 49,
+        "session_id": "442bb36f809d4813b2a5a43b5016902f",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/0098dbdc0cc54a1d9485952a4b119670/H1.png"
+        },
+        "created_at": "2026-07-10T14:37:05"
+      },
+      {
+        "id": 50,
+        "session_id": "a41bea9c46544f2e8f81b03e17f867f9",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": 51,
+        "session_id": "a41bea9c46544f2e8f81b03e17f867f9",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": 52,
+        "session_id": "a41bea9c46544f2e8f81b03e17f867f9",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": 53,
+        "session_id": "a41bea9c46544f2e8f81b03e17f867f9",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": 54,
+        "session_id": "a41bea9c46544f2e8f81b03e17f867f9",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/0098dbdc0cc54a1d9485952a4b119670/H1.png"
+        },
+        "created_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": 55,
+        "session_id": "a41bea9c46544f2e8f81b03e17f867f9",
+        "role": "user",
+        "content": "这款怎么样？",
+        "metadata": {
+          "text": "这款怎么样？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/a41bea9c46544f2e8f81b03e17f867f9/test.png"
+        },
+        "created_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": 56,
+        "session_id": "a41bea9c46544f2e8f81b03e17f867f9",
+        "role": "assistant",
+        "content": "亲亲，结合您的描述「这款怎么样？」，识别到是 **简约托特包**（包袋/手袋）哦～\n货号 **BAG-001**，是我们店里的正品。\n标准身材参考：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "name": "简约托特包",
+          "type": "product_match",
+          "style": "简约 modern minimal",
+          "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "853e609b07ce4d8896f0563ac5c0a587"
+            },
+            {
+              "text": "我想买简约托特包，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约托特包有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "包袋/手袋",
+          "distance": 3,
+          "sku_code": "BAG-001",
+          "image_url": "/api/sku/853e609b07ce4d8896f0563ac5c0a587/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": 57,
+        "session_id": "754a155573214817ac904a966df5f743",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": 58,
+        "session_id": "754a155573214817ac904a966df5f743",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": 59,
+        "session_id": "754a155573214817ac904a966df5f743",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": 60,
+        "session_id": "754a155573214817ac904a966df5f743",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T14:37:48"
+      },
+      {
+        "id": 61,
+        "session_id": "754a155573214817ac904a966df5f743",
+        "role": "assistant",
+        "content": "亲亲，支持虚拟试穿与尺码推荐哦～为了给您生成最贴合的「上身效果图」参考，麻烦您提供一下：\n· 身高 / 体重\n· 日常穿的尺码（或具体三围/肩宽数据）\n· 偏好的版型风格（修身/常规/宽松）\n\n回复后我会立刻为您匹配最佳尺码，并推送专属虚拟试穿效果与搭配建议～",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-10T14:37:54"
+      },
+      {
+        "id": 62,
+        "session_id": "73feeefd85764486bb942188d2c28545",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:38:06"
+      },
+      {
+        "id": 63,
+        "session_id": "73feeefd85764486bb942188d2c28545",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:38:06"
+      },
+      {
+        "id": 64,
+        "session_id": "73feeefd85764486bb942188d2c28545",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:38:06"
+      },
+      {
+        "id": 65,
+        "session_id": "73feeefd85764486bb942188d2c28545",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T14:38:06"
+      },
+      {
+        "id": 66,
+        "session_id": "73feeefd85764486bb942188d2c28545",
+        "role": "assistant",
+        "content": "亲亲，目前虚拟试穿功能需通过商品页面操作哦：进入该商品详情页 ➡️ 点击 **「虚拟试穿」** 按钮 ➡️ 上传一张全身正面照，系统即可一键生成上身效果图并推荐合适尺码～  \n\n若您在此无法找到入口，或希望我提前根据您的身材数据（身高/体重/胸围）给出**精准尺码+上身效果预判**，直接回复告诉我即可，我会马上为您核对。 \n\n操作过程中有任何疑问随时留言，我会全程协助；如需专属一对一调试，也可留下联系方式，人工客服在线后第一时间为您对接～ 💛",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-10T14:38:14"
+      },
+      {
+        "id": 67,
+        "session_id": "558bf8b98d884da98a0b91851a0bcac8",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:38:26"
+      },
+      {
+        "id": 68,
+        "session_id": "558bf8b98d884da98a0b91851a0bcac8",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:38:26"
+      },
+      {
+        "id": 69,
+        "session_id": "558bf8b98d884da98a0b91851a0bcac8",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:38:26"
+      },
+      {
+        "id": 72,
+        "session_id": "2c7b02ceabbf4884824615219f6f396e",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:39:05"
+      },
+      {
+        "id": 73,
+        "session_id": "2c7b02ceabbf4884824615219f6f396e",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:39:05"
+      },
+      {
+        "id": 74,
+        "session_id": "2c7b02ceabbf4884824615219f6f396e",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:39:05"
+      },
+      {
+        "id": 75,
+        "session_id": "2c7b02ceabbf4884824615219f6f396e",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T14:39:05"
+      },
+      {
+        "id": 76,
+        "session_id": "2c7b02ceabbf4884824615219f6f396e",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的上身效果图（使用您的身材数据）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": false
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/0098dbdc0cc54a1d9485952a4b119670/H1.png"
+        },
+        "created_at": "2026-07-10T14:39:05"
+      },
+      {
+        "id": 77,
+        "session_id": "ba6b532589754329a912f63863daa60e",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:39:05"
+      },
+      {
+        "id": 78,
+        "session_id": "ba6b532589754329a912f63863daa60e",
+        "role": "user",
+        "content": "这条裤子好看吗",
+        "metadata": null,
+        "created_at": "2026-07-10T14:39:05"
+      },
+      {
+        "id": 79,
+        "session_id": "ba6b532589754329a912f63863daa60e",
+        "role": "assistant",
+        "content": "亲亲，您这边还没有发送商品链接、款式名称或图片哦～  \n方便的话请发一下链接或拍张实物图，我会立刻为您：\n🔹 展示多角度实拍与**虚拟试穿效果图**  \n🔹 根据您的身高体重推荐最合适的尺码  \n🔹 提供日常/通勤/休闲等场景的搭配建议  \n\n发过来我第一时间帮您看～如果涉及定制或急件细节，也可以留言“转人工”，稍后专员会优先跟进哦！",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-10T14:39:16"
+      },
+      {
+        "id": 80,
+        "session_id": "ba6b532589754329a912f63863daa60e",
+        "role": "user",
+        "content": "店里现在有哪些商品？",
+        "metadata": null,
+        "created_at": "2026-07-10T14:39:16"
+      },
+      {
+        "id": 81,
+        "session_id": "ba6b532589754329a912f63863daa60e",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-10T14:39:16"
+      },
+      {
+        "id": 82,
+        "session_id": "ba6b532589754329a912f63863daa60e",
+        "role": "user",
+        "content": "几天发货？",
+        "metadata": null,
+        "created_at": "2026-07-10T14:39:16"
+      },
+      {
+        "id": 83,
+        "session_id": "ba6b532589754329a912f63863daa60e",
+        "role": "assistant",
+        "content": "发货时间根据商品类型有所不同：\n- **现货商品**：付款后 24-48 小时内发货\n- **预售商品**：按商品页面标注的时间发货\n- **定制商品**：需 7-15 个工作日\n\n如需了解具体订单的发货进度，可直接回复您的订单号为您核实。",
+        "metadata": {
+          "type": "faq"
+        },
+        "created_at": "2026-07-10T14:39:20"
+      },
+      {
+        "id": 84,
+        "session_id": "69063d0972244b50a6a14f97360ea23a",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:40:00"
+      },
+      {
+        "id": 85,
+        "session_id": "69063d0972244b50a6a14f97360ea23a",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:40:00"
+      },
+      {
+        "id": 86,
+        "session_id": "69063d0972244b50a6a14f97360ea23a",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:40:00"
+      },
+      {
+        "id": 87,
+        "session_id": "69063d0972244b50a6a14f97360ea23a",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-10T14:40:00"
+      },
+      {
+        "id": 88,
+        "session_id": "69063d0972244b50a6a14f97360ea23a",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/0098dbdc0cc54a1d9485952a4b119670/H1.png"
+        },
+        "created_at": "2026-07-10T14:40:00"
+      },
+      {
+        "id": 89,
+        "session_id": "69063d0972244b50a6a14f97360ea23a",
+        "role": "user",
+        "content": "这款怎么样？",
+        "metadata": {
+          "text": "这款怎么样？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/69063d0972244b50a6a14f97360ea23a/test.png"
+        },
+        "created_at": "2026-07-10T14:40:00"
+      },
+      {
+        "id": 90,
+        "session_id": "69063d0972244b50a6a14f97360ea23a",
+        "role": "assistant",
+        "content": "亲亲，结合您的描述「这款怎么样？」，识别到是 **简约托特包**（包袋/手袋）哦～\n货号 **BAG-001**，是我们店里的正品。\n标准身材参考：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "name": "简约托特包",
+          "type": "product_match",
+          "style": "简约 modern minimal",
+          "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "853e609b07ce4d8896f0563ac5c0a587"
+            },
+            {
+              "text": "我想买简约托特包，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约托特包有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "包袋/手袋",
+          "distance": 3,
+          "sku_code": "BAG-001",
+          "image_url": "/api/sku/853e609b07ce4d8896f0563ac5c0a587/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:40:00"
+      },
+      {
+        "id": 91,
+        "session_id": "ddd1c364f9054f7b804c017769dfee47",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:40:08"
+      },
+      {
+        "id": 92,
+        "session_id": "ddd1c364f9054f7b804c017769dfee47",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:40:08"
+      },
+      {
+        "id": 93,
+        "session_id": "ddd1c364f9054f7b804c017769dfee47",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:40:08"
+      },
+      {
+        "id": 94,
+        "session_id": "ddd1c364f9054f7b804c017769dfee47",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T14:40:08"
+      },
+      {
+        "id": 95,
+        "session_id": "ddd1c364f9054f7b804c017769dfee47",
+        "role": "assistant",
+        "content": "亲亲，好的呢～作为AI助手，我可以为您提供**虚拟试穿参考效果**。为更精准匹配，请回复您的：\n• 身高 / 体重 / 穿搭偏好（宽松或修身）\n\n收到后我将立即为您生成对应体型的上身效果参考，并同步推荐最合适的尺码与搭配建议。  \n（注：实时3D AR动态试穿需在商品详情页点击顶部「虚拟试穿」按钮进入专属模块体验哦～）  \n随时告诉我您的数据，马上为您安排！✨",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-10T14:40:18"
+      },
+      {
+        "id": 96,
+        "session_id": "0d7ad6f2f52c491b8fc15104a56357f8",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T14:41:32"
+      },
+      {
+        "id": 97,
+        "session_id": "0d7ad6f2f52c491b8fc15104a56357f8",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T14:41:32"
+      },
+      {
+        "id": 98,
+        "session_id": "0d7ad6f2f52c491b8fc15104a56357f8",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T14:41:32"
+      },
+      {
+        "id": 99,
+        "session_id": "0d7ad6f2f52c491b8fc15104a56357f8",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T14:41:32"
+      },
+      {
+        "id": 100,
+        "session_id": "0d7ad6f2f52c491b8fc15104a56357f8",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/0098dbdc0cc54a1d9485952a4b119670/H1.png"
+        },
+        "created_at": "2026-07-10T14:41:32"
+      },
+      {
+        "id": 101,
+        "session_id": "5249d1be16534093ba2cb40d0065e3b5",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T15:27:58"
+      },
+      {
+        "id": 102,
+        "session_id": "5249d1be16534093ba2cb40d0065e3b5",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T15:27:58"
+      },
+      {
+        "id": 103,
+        "session_id": "5249d1be16534093ba2cb40d0065e3b5",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T15:27:58"
+      },
+      {
+        "id": 104,
+        "session_id": "5249d1be16534093ba2cb40d0065e3b5",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-10T15:27:58"
+      },
+      {
+        "id": 105,
+        "session_id": "5249d1be16534093ba2cb40d0065e3b5",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/0098dbdc0cc54a1d9485952a4b119670/H1.png"
+        },
+        "created_at": "2026-07-10T15:27:58"
+      },
+      {
+        "id": 106,
+        "session_id": "5249d1be16534093ba2cb40d0065e3b5",
+        "role": "user",
+        "content": "这款怎么样？",
+        "metadata": {
+          "text": "这款怎么样？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/5249d1be16534093ba2cb40d0065e3b5/test.png"
+        },
+        "created_at": "2026-07-10T15:27:58"
+      },
+      {
+        "id": 107,
+        "session_id": "5249d1be16534093ba2cb40d0065e3b5",
+        "role": "assistant",
+        "content": "亲亲，结合您的描述「这款怎么样？」，识别到是 **简约托特包**（包袋/手袋）哦～\n货号 **BAG-001**，是我们店里的正品。\n标准身材参考：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "name": "简约托特包",
+          "type": "product_match",
+          "style": "简约 modern minimal",
+          "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "853e609b07ce4d8896f0563ac5c0a587"
+            },
+            {
+              "text": "我想买简约托特包，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约托特包有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "包袋/手袋",
+          "distance": 3,
+          "sku_code": "BAG-001",
+          "image_url": "/api/sku/853e609b07ce4d8896f0563ac5c0a587/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T15:27:58"
+      },
+      {
+        "id": 108,
+        "session_id": "41116a9780e545d9b990932ac7d71b6c",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T15:28:10"
+      },
+      {
+        "id": 109,
+        "session_id": "41116a9780e545d9b990932ac7d71b6c",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T15:28:10"
+      },
+      {
+        "id": 110,
+        "session_id": "41116a9780e545d9b990932ac7d71b6c",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T15:28:10"
+      },
+      {
+        "id": 111,
+        "session_id": "41116a9780e545d9b990932ac7d71b6c",
+        "role": "user",
+        "content": "几天发货？",
+        "metadata": null,
+        "created_at": "2026-07-10T15:28:10"
+      },
+      {
+        "id": 112,
+        "session_id": "41116a9780e545d9b990932ac7d71b6c",
+        "role": "assistant",
+        "content": "您好，发货时间根据商品类型有所不同：\n- **现货商品**：付款后 24-48 小时内发货\n- **预售商品**：按商品页标注时间发货\n- **定制商品**：7-15 个工作日\n\n如需查询具体订单进度，可直接提供订单号。",
+        "metadata": {
+          "type": "faq"
+        },
+        "created_at": "2026-07-10T15:28:18"
+      },
+      {
+        "id": 113,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T15:42:49"
+      },
+      {
+        "id": 114,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "user",
+        "content": "介绍一下 简约黑色吊带裙",
+        "metadata": null,
+        "created_at": "2026-07-10T15:43:00"
+      },
+      {
+        "id": 115,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **简约黑色吊带裙**（女装/连衣裙）～\n· 货号：**DRESS-002**\n· 风格：简约 modern minimal\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 大胸丰满翘臀身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "简约黑色吊带裙",
+          "type": "product_intro",
+          "style": "简约 modern minimal",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "58963cd32ffe42209d0d3457c3f74ad3"
+            },
+            {
+              "text": "我想买简约黑色吊带裙，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约黑色吊带裙有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-002",
+          "image_url": "/api/sku/58963cd32ffe42209d0d3457c3f74ad3/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T15:43:00"
+      },
+      {
+        "id": 116,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "user",
+        "content": "介绍一下 简约黑色吊带裙",
+        "metadata": null,
+        "created_at": "2026-07-10T15:43:02"
+      },
+      {
+        "id": 117,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **简约黑色吊带裙**（女装/连衣裙）～\n· 货号：**DRESS-002**\n· 风格：简约 modern minimal\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 大胸丰满翘臀身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "简约黑色吊带裙",
+          "type": "product_intro",
+          "style": "简约 modern minimal",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "58963cd32ffe42209d0d3457c3f74ad3"
+            },
+            {
+              "text": "我想买简约黑色吊带裙，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约黑色吊带裙有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-002",
+          "image_url": "/api/sku/58963cd32ffe42209d0d3457c3f74ad3/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T15:43:02"
+      },
+      {
+        "id": 118,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "user",
+        "content": "简约黑色吊带裙有什么搭配建议？",
+        "metadata": null,
+        "created_at": "2026-07-10T15:43:12"
+      },
+      {
+        "id": 119,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "assistant",
+        "content": "亲亲～简约黑色吊带裙非常百搭，为您整理了几套实用搭配方案，方便直接抄作业：\n\n👗 **日常休闲**：外搭宽松牛仔外套/薄针织开衫 + 小白鞋/帆布鞋 = 清爽随性，遮肉显高  \n👜 **通勤优雅**：搭配修身小西装/中长款风衣 + 低跟穆勒鞋/乐福鞋 = 利落干练，气质不费力  \n💃 **约会/聚会**：叠加金属层叠项链/丝绒小披肩 + 细带高跟凉鞋 = 精致显瘦，氛围感拉满  \n\n💡 **穿搭小贴士**：黑色虽百搭，但吊带裙的腰线位置很关键。建议选**中高腰+微A字下摆**的款式，能很好地优化身材比例，大胸/梨形身材穿也友好。\n\n需要我为您生成几款单品的 **「虚拟试穿效果图」** 吗？或者直接告诉我您的身高、体重和穿着场合，我来给您定制一套更精准的搭配+尺码推荐哦～随时在线！✨",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-10T15:43:18"
+      },
+      {
+        "id": 120,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "user",
+        "content": "生成虚拟试穿效果图 看看",
+        "metadata": null,
+        "created_at": "2026-07-10T15:43:47"
+      },
+      {
+        "id": 121,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "assistant",
+        "content": "亲亲，马上为您安排～✨  \n当前为纯文字交互环境，我暂时无法直接发送图片文件哦。您只需点击商品页的「虚拟试穿」入口，填写您的身高、体重与肩宽数据，系统会瞬间生成专属AI上身效果图，支持左右转身视角切换呢～  \n\n💡 **贴心提示**：黑色细吊带对肩颈线条较敏感，若您是溜肩/副乳/大胸身材，可在试穿工具中勾选「修饰建议」，AI会自动标注穿着要点与内搭方案。  \n\n需要我先为您做一版精准尺码+身材适配说明吗？回复您的身高、体重和三围数据即可，亲亲随时在线为您把关～💕",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-10T15:43:59"
+      },
+      {
+        "id": 122,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "user",
+        "content": "[试穿] 简约黑色吊带裙",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3"
+        },
+        "created_at": "2026-07-10T15:44:12"
+      },
+      {
+        "id": 123,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "assistant",
+        "content": "亲亲，这是 **简约黑色吊带裙** 的上身效果图（使用您的身材数据）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": false
+          },
+          "type": "tryon_result",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "简约黑色吊带裙",
+          "image_url": "/storage/generated/4cc34854302b4922a7c4fb1db7939439/H1.png"
+        },
+        "created_at": "2026-07-10T15:44:12"
+      },
+      {
+        "id": 124,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "user",
+        "content": "店里还有什么推荐？",
+        "metadata": null,
+        "created_at": "2026-07-10T15:44:32"
+      },
+      {
+        "id": 125,
+        "session_id": "7abb6d267def49379330b9a590a7d541",
+        "role": "assistant",
+        "content": "亲亲～除了这款简约黑吊带裙，店内还有以下几类人气单品，能帮您轻松搭出不同场景的穿搭👇\n\n🧥 **外搭系列**：薄款针织开衫 / 微廓形小西装（通勤防风，早晚温差友好）  \n👚 **内搭叠穿**：真丝抹胸 / 微透雪纺衬衫 / 细条纹打底T（打造层次，避免单调）  \n👜 **鞋包配饰**：细带方跟凉鞋 / 结构感迷你包 / 金属细腰带（优化比例，精致度UP）  \n\n💡 **温馨提示**：因系统库存实时变动，若您有具体穿着场合、偏好风格（如法式/极简/通勤/约会）或身材数据，回复我即可为您生成 **「专属搭配清单+虚拟试穿效果图」**，一次给到最适配的方案～随时在线哦✨",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-10T15:44:43"
+      },
+      {
+        "id": 133,
+        "session_id": "40da677e23744a67b2c56aebb70d8bb1",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T16:09:43"
+      },
+      {
+        "id": 134,
+        "session_id": "40da677e23744a67b2c56aebb70d8bb1",
+        "role": "user",
+        "content": "介绍一下 简约黑色吊带裙",
+        "metadata": null,
+        "created_at": "2026-07-10T16:09:43"
+      },
+      {
+        "id": 135,
+        "session_id": "40da677e23744a67b2c56aebb70d8bb1",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **简约黑色吊带裙**（女装/连衣裙）～\n· 货号：**DRESS-002**\n· 风格：简约 modern minimal\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 大胸丰满翘臀身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "简约黑色吊带裙",
+          "type": "product_intro",
+          "style": "简约 modern minimal",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "58963cd32ffe42209d0d3457c3f74ad3"
+            },
+            {
+              "text": "我想买简约黑色吊带裙，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约黑色吊带裙有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-002",
+          "image_url": "/api/sku/58963cd32ffe42209d0d3457c3f74ad3/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T16:09:43"
+      },
+      {
+        "id": 136,
+        "session_id": "40da677e23744a67b2c56aebb70d8bb1",
+        "role": "user",
+        "content": "[试穿] 简约黑色吊带裙",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3"
+        },
+        "created_at": "2026-07-10T16:09:43"
+      },
+      {
+        "id": 137,
+        "session_id": "40da677e23744a67b2c56aebb70d8bb1",
+        "role": "assistant",
+        "content": "亲亲，这是 **简约黑色吊带裙** 的上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "简约黑色吊带裙",
+          "image_url": "/storage/generated/4cc34854302b4922a7c4fb1db7939439/H1.png"
+        },
+        "created_at": "2026-07-10T16:09:43"
+      },
+      {
+        "id": 138,
+        "session_id": "a0db9e737967421f9e6f73e6f06c7653",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T16:09:44"
+      },
+      {
+        "id": 139,
+        "session_id": "a0db9e737967421f9e6f73e6f06c7653",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T16:09:44"
+      },
+      {
+        "id": 140,
+        "session_id": "a0db9e737967421f9e6f73e6f06c7653",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T16:09:44"
+      },
+      {
+        "id": 141,
+        "session_id": "a0db9e737967421f9e6f73e6f06c7653",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-10T16:09:44"
+      },
+      {
+        "id": 142,
+        "session_id": "a0db9e737967421f9e6f73e6f06c7653",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/0098dbdc0cc54a1d9485952a4b119670/H1.png"
+        },
+        "created_at": "2026-07-10T16:09:44"
+      },
+      {
+        "id": 143,
+        "session_id": "a0db9e737967421f9e6f73e6f06c7653",
+        "role": "user",
+        "content": "这款怎么样？",
+        "metadata": {
+          "text": "这款怎么样？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/a0db9e737967421f9e6f73e6f06c7653/test.png"
+        },
+        "created_at": "2026-07-10T16:09:44"
+      },
+      {
+        "id": 144,
+        "session_id": "a0db9e737967421f9e6f73e6f06c7653",
+        "role": "assistant",
+        "content": "亲亲，结合您的描述「这款怎么样？」，识别到是 **简约托特包**（包袋/手袋）哦～\n货号 **BAG-001**，是我们店里的正品。\n标准身材参考：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "name": "简约托特包",
+          "type": "product_match",
+          "style": "简约 modern minimal",
+          "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "853e609b07ce4d8896f0563ac5c0a587"
+            },
+            {
+              "text": "我想买简约托特包，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约托特包有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "包袋/手袋",
+          "distance": 3,
+          "sku_code": "BAG-001",
+          "image_url": "/api/sku/853e609b07ce4d8896f0563ac5c0a587/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T16:09:44"
+      },
+      {
+        "id": 145,
+        "session_id": "a239aeb633854c33991e6102b5dcb1e4",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T16:10:26"
+      },
+      {
+        "id": 146,
+        "session_id": "a239aeb633854c33991e6102b5dcb1e4",
+        "role": "user",
+        "content": "介绍一下 简约黑色吊带裙",
+        "metadata": null,
+        "created_at": "2026-07-10T16:10:26"
+      },
+      {
+        "id": 147,
+        "session_id": "a239aeb633854c33991e6102b5dcb1e4",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **简约黑色吊带裙**（女装/连衣裙）～\n· 货号：**DRESS-002**\n· 风格：简约 modern minimal\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 大胸丰满翘臀身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "简约黑色吊带裙",
+          "type": "product_intro",
+          "style": "简约 modern minimal",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "58963cd32ffe42209d0d3457c3f74ad3"
+            },
+            {
+              "text": "我想买简约黑色吊带裙，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约黑色吊带裙有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-002",
+          "image_url": "/api/sku/58963cd32ffe42209d0d3457c3f74ad3/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T16:10:26"
+      },
+      {
+        "id": 148,
+        "session_id": "a239aeb633854c33991e6102b5dcb1e4",
+        "role": "user",
+        "content": "[试穿] 简约黑色吊带裙",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3"
+        },
+        "created_at": "2026-07-10T16:10:26"
+      },
+      {
+        "id": 149,
+        "session_id": "a239aeb633854c33991e6102b5dcb1e4",
+        "role": "assistant",
+        "content": "亲亲，这是 **简约黑色吊带裙** 的模特上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "简约黑色吊带裙",
+          "image_url": "/storage/generated/4cc34854302b4922a7c4fb1db7939439/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/4cc34854302b4922a7c4fb1db7939439/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T16:10:26"
+      },
+      {
+        "id": 150,
+        "session_id": "4cfb5c894a684937b91787f1cd614cdd",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T16:10:27"
+      },
+      {
+        "id": 151,
+        "session_id": "4cfb5c894a684937b91787f1cd614cdd",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-10T16:10:27"
+      },
+      {
+        "id": 152,
+        "session_id": "4cfb5c894a684937b91787f1cd614cdd",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的模特上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T16:10:27"
+      },
+      {
+        "id": 155,
+        "session_id": "cebb9fd5789c436fa7a015b54f74d710",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": 156,
+        "session_id": "cebb9fd5789c436fa7a015b54f74d710",
+        "role": "user",
+        "content": "介绍一下 简约黑色吊带裙",
+        "metadata": null,
+        "created_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": 157,
+        "session_id": "cebb9fd5789c436fa7a015b54f74d710",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **简约黑色吊带裙**（女装/连衣裙）～\n· 货号：**DRESS-002**\n· 风格：简约 modern minimal\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 大胸丰满翘臀身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "简约黑色吊带裙",
+          "type": "product_intro",
+          "style": "简约 modern minimal",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "58963cd32ffe42209d0d3457c3f74ad3"
+            },
+            {
+              "text": "我想买简约黑色吊带裙，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约黑色吊带裙有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-002",
+          "image_url": "/api/sku/58963cd32ffe42209d0d3457c3f74ad3/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": 158,
+        "session_id": "cebb9fd5789c436fa7a015b54f74d710",
+        "role": "user",
+        "content": "[试穿] 简约黑色吊带裙",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3"
+        },
+        "created_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": 159,
+        "session_id": "cebb9fd5789c436fa7a015b54f74d710",
+        "role": "assistant",
+        "content": "亲亲，这是 **简约黑色吊带裙** 的模特上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "58963cd32ffe42209d0d3457c3f74ad3",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "简约黑色吊带裙",
+          "image_url": "/storage/generated/4cc34854302b4922a7c4fb1db7939439/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/4cc34854302b4922a7c4fb1db7939439/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": 160,
+        "session_id": "e99d06ca15fc4e4cbcb0c3f80f5a8cee",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": 161,
+        "session_id": "e99d06ca15fc4e4cbcb0c3f80f5a8cee",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": 162,
+        "session_id": "e99d06ca15fc4e4cbcb0c3f80f5a8cee",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": 163,
+        "session_id": "e99d06ca15fc4e4cbcb0c3f80f5a8cee",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": 164,
+        "session_id": "e99d06ca15fc4e4cbcb0c3f80f5a8cee",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的模特上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": 165,
+        "session_id": "e99d06ca15fc4e4cbcb0c3f80f5a8cee",
+        "role": "user",
+        "content": "这款怎么样？",
+        "metadata": {
+          "text": "这款怎么样？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/e99d06ca15fc4e4cbcb0c3f80f5a8cee/82f38439_test.png"
+        },
+        "created_at": "2026-07-10T16:38:09"
+      },
+      {
+        "id": 166,
+        "session_id": "e99d06ca15fc4e4cbcb0c3f80f5a8cee",
+        "role": "assistant",
+        "content": "亲亲，结合您的描述「这款怎么样？」，识别到是 **简约托特包**（包袋/手袋）哦～\n货号 **BAG-001**，是我们店里的正品。\n标准身材参考：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "name": "简约托特包",
+          "type": "product_match",
+          "style": "简约 modern minimal",
+          "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "853e609b07ce4d8896f0563ac5c0a587"
+            },
+            {
+              "text": "我想买简约托特包，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约托特包有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "包袋/手袋",
+          "distance": 3,
+          "sku_code": "BAG-001",
+          "image_url": "/api/sku/853e609b07ce4d8896f0563ac5c0a587/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T16:38:10"
+      },
+      {
+        "id": 167,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T16:52:36"
+      },
+      {
+        "id": 168,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "介绍一下 法式碎花连衣裙",
+        "metadata": null,
+        "created_at": "2026-07-10T16:52:40"
+      },
+      {
+        "id": 169,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **法式碎花连衣裙**（女装/连衣裙）～\n· 货号：**DRESS-001**\n· 风格：清新 fresh natural\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "法式碎花连衣裙",
+          "type": "product_intro",
+          "style": "清新 fresh natural",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "6c90d7ac51704a9287e43bbd1540c254"
+            },
+            {
+              "text": "我想买法式碎花连衣裙，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "法式碎花连衣裙有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-001",
+          "image_url": "/api/sku/6c90d7ac51704a9287e43bbd1540c254/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T16:52:40"
+      },
+      {
+        "id": 170,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "[试穿] 法式碎花连衣裙",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254"
+        },
+        "created_at": "2026-07-10T16:52:50"
+      },
+      {
+        "id": 171,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，这是 **法式碎花连衣裙** 的模特上身效果图（使用您的身材数据）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": false
+          },
+          "type": "tryon_result",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "法式碎花连衣裙",
+          "image_url": "/storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T16:52:50"
+      },
+      {
+        "id": 172,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "店里还有什么推荐？",
+        "metadata": null,
+        "created_at": "2026-07-10T16:53:10"
+      },
+      {
+        "id": 173,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-10T16:53:10"
+      },
+      {
+        "id": 174,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T16:53:15"
+      },
+      {
+        "id": 175,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，这是 **法式碎花连衣裙** 的模特上身效果图（使用您的身材数据）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": false
+          },
+          "type": "tryon_result",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "法式碎花连衣裙",
+          "image_url": "/storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T16:53:15"
+      },
+      {
+        "id": 176,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "介绍一下 法式碎花连衣裙",
+        "metadata": null,
+        "created_at": "2026-07-10T16:53:25"
+      },
+      {
+        "id": 177,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **法式碎花连衣裙**（女装/连衣裙）～\n· 货号：**DRESS-001**\n· 风格：清新 fresh natural\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "法式碎花连衣裙",
+          "type": "product_intro",
+          "style": "清新 fresh natural",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "6c90d7ac51704a9287e43bbd1540c254"
+            },
+            {
+              "text": "我想买法式碎花连衣裙，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "法式碎花连衣裙有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-001",
+          "image_url": "/api/sku/6c90d7ac51704a9287e43bbd1540c254/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T16:53:25"
+      },
+      {
+        "id": 178,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T16:53:26"
+      },
+      {
+        "id": 179,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T16:53:26"
+      },
+      {
+        "id": 180,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-10T16:53:28"
+      },
+      {
+        "id": 181,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的模特上身效果图（使用您的身材数据）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": false
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T16:53:28"
+      },
+      {
+        "id": 182,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+        "metadata": null,
+        "created_at": "2026-07-10T16:54:04"
+      },
+      {
+        "id": 183,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，这款【针织开衫外套-测试-edited】目前提供 **S / M / L / XL** 四个尺码哦～\n\n根据系统默认的参考身材（身高165cm/体重55kg/标准体型），这款为**微宽松版型**，常规推荐选 **M码** 最为合身舒适。\n\n⚠️ 由于不同人的肩宽、胸围差异会影响上身效果，为了给您最精准的推荐，麻烦您补充一下您的 **身高、体重、以及平时常穿的尺码**（或肩宽/胸围数据）哦～我会立即为您智能匹配最佳尺码！若仍有纠结，也可以直接留言，稍后会有人工客服为您一对一确认～ 🌸",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-10T16:54:16"
+      },
+      {
+        "id": 184,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-10T17:04:04"
+      },
+      {
+        "id": 185,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的模特上身效果图（使用您的身材数据）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": false
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T17:04:04"
+      },
+      {
+        "id": 186,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "店里还有什么推荐？",
+        "metadata": null,
+        "created_at": "2026-07-10T17:04:09"
+      },
+      {
+        "id": 187,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-10T17:04:09"
+      },
+      {
+        "id": 188,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "店里还有什么推荐？",
+        "metadata": null,
+        "created_at": "2026-07-10T17:04:14"
+      },
+      {
+        "id": 189,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-10T17:04:14"
+      },
+      {
+        "id": 190,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T17:04:17"
+      },
+      {
+        "id": 191,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的模特上身效果图（使用您的身材数据）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": false
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T17:04:17"
+      },
+      {
+        "id": 192,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T17:04:31"
+      },
+      {
+        "id": 193,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的模特上身效果图（使用您的身材数据）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": false
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T17:04:31"
+      },
+      {
+        "id": 194,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "店里还有什么推荐？",
+        "metadata": null,
+        "created_at": "2026-07-10T17:04:50"
+      },
+      {
+        "id": 195,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-10T17:04:50"
+      },
+      {
+        "id": 196,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "我想试穿这件衣服",
+        "metadata": null,
+        "created_at": "2026-07-10T17:34:58"
+      },
+      {
+        "id": 197,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的模特上身效果图（使用您的身材数据）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": false
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T17:34:58"
+      },
+      {
+        "id": 198,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "女装有哪些款式？",
+        "metadata": null,
+        "created_at": "2026-07-10T18:41:46"
+      },
+      {
+        "id": 199,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-10T18:41:46"
+      },
+      {
+        "id": 200,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "有什么裤子推荐？",
+        "metadata": null,
+        "created_at": "2026-07-10T18:41:53"
+      },
+      {
+        "id": 201,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-10T18:41:53"
+      },
+      {
+        "id": 202,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "有什么裤子推荐？",
+        "metadata": null,
+        "created_at": "2026-07-10T18:41:58"
+      },
+      {
+        "id": 203,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-10T18:41:58"
+      },
+      {
+        "id": 204,
+        "session_id": "f25683af36d740a19efe47974df473b7",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T19:33:25"
+      },
+      {
+        "id": 205,
+        "session_id": "f25683af36d740a19efe47974df473b7",
+        "role": "user",
+        "content": "介绍一下 简约托特包",
+        "metadata": null,
+        "created_at": "2026-07-10T19:33:25"
+      },
+      {
+        "id": 206,
+        "session_id": "f25683af36d740a19efe47974df473b7",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **简约托特包**（包袋/手袋）～\n· 货号：**BAG-001**\n· 风格：简约 modern minimal\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "简约托特包",
+          "type": "product_intro",
+          "style": "简约 modern minimal",
+          "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "853e609b07ce4d8896f0563ac5c0a587"
+            },
+            {
+              "text": "我想买简约托特包，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "简约托特包有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "包袋/手袋",
+          "sku_code": "BAG-001",
+          "image_url": "/api/sku/853e609b07ce4d8896f0563ac5c0a587/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T19:33:25"
+      },
+      {
+        "id": 207,
+        "session_id": "f25683af36d740a19efe47974df473b7",
+        "role": "user",
+        "content": "[试穿] 简约托特包",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "853e609b07ce4d8896f0563ac5c0a587"
+        },
+        "created_at": "2026-07-10T19:33:25"
+      },
+      {
+        "id": 208,
+        "session_id": "f25683af36d740a19efe47974df473b7",
+        "role": "assistant",
+        "content": "亲亲，**简约托特包** 的虚拟试穿效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**\n运营台尚未生成模特上身图，请先在运营台完成「生成图片」后再查看试穿效果。",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "853e609b07ce4d8896f0563ac5c0a587",
+          "actions": [
+            {
+              "text": "我想买简约托特包，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            }
+          ],
+          "sku_name": "简约托特包",
+          "image_url": null,
+          "gallery_urls": [],
+          "is_model_shot": false,
+          "pending_generation": true
+        },
+        "created_at": "2026-07-10T19:33:25"
+      },
+      {
+        "id": 209,
+        "session_id": "14d6bd6d717240b78cb0f120a3a6e745",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T20:42:23"
+      },
+      {
+        "id": 210,
+        "session_id": "14d6bd6d717240b78cb0f120a3a6e745",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T20:42:23"
+      },
+      {
+        "id": 211,
+        "session_id": "14d6bd6d717240b78cb0f120a3a6e745",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T20:42:23"
+      },
+      {
+        "id": 212,
+        "session_id": "14d6bd6d717240b78cb0f120a3a6e745",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-10T20:42:23"
+      },
+      {
+        "id": 213,
+        "session_id": "14d6bd6d717240b78cb0f120a3a6e745",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的模特上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T20:42:23"
+      },
+      {
+        "id": 214,
+        "session_id": "14d6bd6d717240b78cb0f120a3a6e745",
+        "role": "user",
+        "content": "这款怎么样",
+        "metadata": {
+          "text": "这款怎么样",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/14d6bd6d717240b78cb0f120a3a6e745/3b4b4fde_test.png"
+        },
+        "created_at": "2026-07-10T20:42:23"
+      },
+      {
+        "id": 215,
+        "session_id": "14d6bd6d717240b78cb0f120a3a6e745",
+        "role": "assistant",
+        "content": "亲亲，结合您的描述「这款怎么样」，识别到是 **运动休闲卫衣**（运动/健身）哦～\n货号 **SPORT-001**，是我们店里的正品。\n标准身材参考：身高 **168cm** / 体重 **58kg**",
+        "metadata": {
+          "name": "运动休闲卫衣",
+          "type": "product_match",
+          "style": "运动 athletic",
+          "sku_id": "86e327906f224f2dbd8c12b45bebd2db",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "86e327906f224f2dbd8c12b45bebd2db"
+            },
+            {
+              "text": "我想买运动休闲卫衣，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "运动休闲卫衣有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "运动/健身",
+          "distance": 8,
+          "sku_code": "SPORT-001",
+          "image_url": "/api/sku/86e327906f224f2dbd8c12b45bebd2db/image",
+          "default_body": {
+            "height_cm": 168.0,
+            "weight_kg": 58.0
+          }
+        },
+        "created_at": "2026-07-10T20:42:23"
+      },
+      {
+        "id": 216,
+        "session_id": "5cac136fd43442249903f49fa330589c",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-10T23:36:40"
+      },
+      {
+        "id": 217,
+        "session_id": "5cac136fd43442249903f49fa330589c",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-10T23:36:40"
+      },
+      {
+        "id": 218,
+        "session_id": "5cac136fd43442249903f49fa330589c",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-10T23:36:40"
+      },
+      {
+        "id": 219,
+        "session_id": "5cac136fd43442249903f49fa330589c",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-10T23:36:40"
+      },
+      {
+        "id": 220,
+        "session_id": "5cac136fd43442249903f49fa330589c",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的模特上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-10T23:36:40"
+      },
+      {
+        "id": 221,
+        "session_id": "5cac136fd43442249903f49fa330589c",
+        "role": "user",
+        "content": "这款怎么样",
+        "metadata": {
+          "text": "这款怎么样",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/5cac136fd43442249903f49fa330589c/5fd0ded9_test.png"
+        },
+        "created_at": "2026-07-10T23:36:40"
+      },
+      {
+        "id": 222,
+        "session_id": "5cac136fd43442249903f49fa330589c",
+        "role": "assistant",
+        "content": "亲亲，结合您的描述「这款怎么样」，识别到是 **运动休闲卫衣**（运动/健身）哦～\n货号 **SPORT-001**，是我们店里的正品。\n标准身材参考：身高 **168cm** / 体重 **58kg**",
+        "metadata": {
+          "name": "运动休闲卫衣",
+          "type": "product_match",
+          "style": "运动 athletic",
+          "sku_id": "86e327906f224f2dbd8c12b45bebd2db",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "86e327906f224f2dbd8c12b45bebd2db"
+            },
+            {
+              "text": "我想买运动休闲卫衣，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "运动休闲卫衣有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "运动/健身",
+          "distance": 8,
+          "sku_code": "SPORT-001",
+          "image_url": "/api/sku/86e327906f224f2dbd8c12b45bebd2db/image",
+          "default_body": {
+            "height_cm": 168.0,
+            "weight_kg": 58.0
+          }
+        },
+        "created_at": "2026-07-10T23:36:40"
+      },
+      {
+        "id": 223,
+        "session_id": "9a0a654647944aa48457dbc311b4eb27",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-11T16:32:57"
+      },
+      {
+        "id": 224,
+        "session_id": "9a0a654647944aa48457dbc311b4eb27",
+        "role": "user",
+        "content": "介绍一下 针织开衫外套-测试-edited",
+        "metadata": null,
+        "created_at": "2026-07-11T16:32:57"
+      },
+      {
+        "id": 225,
+        "session_id": "9a0a654647944aa48457dbc311b4eb27",
+        "role": "assistant",
+        "content": "亲亲，为您介绍 **针织开衫外套-测试-edited**（女装/上衣）～\n· 货号：**TOP-001**\n· 风格：温馨 cozy warm\n· 参考模特：亚洲女性, 25岁, 身高165cm, 体重55kg, 标准身材\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n点击下方「查看上身效果图」可预览试穿效果～",
+        "metadata": {
+          "name": "针织开衫外套-测试-edited",
+          "type": "product_intro",
+          "style": "温馨 cozy warm",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+            },
+            {
+              "text": "我想买针织开衫外套-测试-edited，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "针织开衫外套-测试-edited有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "女装/上衣",
+          "sku_code": "TOP-001",
+          "image_url": "/api/sku/45e5729ed50c470dbbcdb1ab48ea77d4/image",
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          }
+        },
+        "created_at": "2026-07-11T16:32:57"
+      },
+      {
+        "id": 226,
+        "session_id": "9a0a654647944aa48457dbc311b4eb27",
+        "role": "user",
+        "content": "[试穿] 针织开衫外套-测试-edited",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4"
+        },
+        "created_at": "2026-07-11T16:32:57"
+      },
+      {
+        "id": 227,
+        "session_id": "9a0a654647944aa48457dbc311b4eb27",
+        "role": "assistant",
+        "content": "亲亲，这是 **针织开衫外套-测试-edited** 的模特上身效果图（使用运营台默认标准身材）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": true
+          },
+          "type": "tryon_result",
+          "sku_id": "45e5729ed50c470dbbcdb1ab48ea77d4",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "针织开衫外套-测试-edited",
+          "image_url": "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/7cab69e12c484545aa6e8b744c36d36f/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-11T16:32:57"
+      },
+      {
+        "id": 228,
+        "session_id": "9a0a654647944aa48457dbc311b4eb27",
+        "role": "user",
+        "content": "这款怎么样",
+        "metadata": {
+          "text": "这款怎么样",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/9a0a654647944aa48457dbc311b4eb27/1a065243_test.png"
+        },
+        "created_at": "2026-07-11T16:32:57"
+      },
+      {
+        "id": 229,
+        "session_id": "9a0a654647944aa48457dbc311b4eb27",
+        "role": "assistant",
+        "content": "亲亲，结合您的描述「这款怎么样」，识别到是 **运动休闲卫衣**（运动/健身）哦～\n货号 **SPORT-001**，是我们店里的正品。\n标准身材参考：身高 **168cm** / 体重 **58kg**",
+        "metadata": {
+          "name": "运动休闲卫衣",
+          "type": "product_match",
+          "style": "运动 athletic",
+          "sku_id": "86e327906f224f2dbd8c12b45bebd2db",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "查看上身效果图",
+              "sku_id": "86e327906f224f2dbd8c12b45bebd2db"
+            },
+            {
+              "text": "我想买运动休闲卫衣，适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "运动休闲卫衣有什么搭配建议？",
+              "type": "message",
+              "label": "搭配建议"
+            }
+          ],
+          "category": "运动/健身",
+          "distance": 8,
+          "sku_code": "SPORT-001",
+          "image_url": "/api/sku/86e327906f224f2dbd8c12b45bebd2db/image",
+          "default_body": {
+            "height_cm": 168.0,
+            "weight_kg": 58.0
+          }
+        },
+        "created_at": "2026-07-11T16:32:57"
+      },
+      {
+        "id": 230,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "有类似的衣服吗？",
+        "metadata": {
+          "text": "有类似的衣服吗？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/12b04450d6c048f98b036b125d92ca1e/a2e84001_image.png"
+        },
+        "created_at": "2026-07-12T16:56:37"
+      },
+      {
+        "id": 231,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，目前系统暂未收录与这件**针织开衫外套-测试-edited**完全同款的相似款哦～  \n如果您能告诉我您偏好的风格或细节（如：宽松/修身、面料材质、袖长/衣长等），我可以从现有商品中为您匹配最接近的选项并提供穿搭建议；如需精准检索全店相似款或即将上新单品，建议您留言给人工客服，我们会优先为您跟进筛选哦！💕",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-12T16:56:46"
+      },
+      {
+        "id": 232,
+        "session_id": "0421465fb66e48d586c165bb8a9c0177",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-12T17:19:15"
+      },
+      {
+        "id": 233,
+        "session_id": "0421465fb66e48d586c165bb8a9c0177",
+        "role": "user",
+        "content": "有类似的衣服吗？",
+        "metadata": {
+          "text": "有类似的衣服吗？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/0421465fb66e48d586c165bb8a9c0177/8301b56f_floral_dress.png"
+        },
+        "created_at": "2026-07-12T17:19:15"
+      },
+      {
+        "id": 234,
+        "session_id": "0421465fb66e48d586c165bb8a9c0177",
+        "role": "assistant",
+        "content": "亲亲，您好呀～不过您还没告诉我具体参考的是哪款衣服或什么风格呢？麻烦您补充一下以下任一信息，我马上为您精准匹配：\n🔹 商品链接 / 页面截图  \n🔹 喜欢的款式/颜色/版型关键词（如“法式碎花连衣裙”“宽松西装外套”等）  \n\n收到后我会立即为您筛选相似款，并可同步提供搭配建议或生成虚拟试穿效果图。若暂时不方便详细描述，也可直接留言备注您的偏好，我会尽快为您转接人工客服跟进回复～",
+        "metadata": {
+          "type": "text"
+        },
+        "created_at": "2026-07-12T17:19:23"
+      },
+      {
+        "id": 235,
+        "session_id": "144d6b5813af464cb524162cb1ab8704",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-12T17:20:58"
+      },
+      {
+        "id": 236,
+        "session_id": "144d6b5813af464cb524162cb1ab8704",
+        "role": "user",
+        "content": "有类似的衣服吗？",
+        "metadata": {
+          "text": "有类似的衣服吗？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/144d6b5813af464cb524162cb1ab8704/78f8a55e_floral.png"
+        },
+        "created_at": "2026-07-12T17:20:58"
+      },
+      {
+        "id": 237,
+        "session_id": "144d6b5813af464cb524162cb1ab8704",
+        "role": "assistant",
+        "content": "亲亲，按您说的「有类似的衣服吗？」，我在店里找到了一款挺像的 **法式碎花连衣裙**～\n\n· 均为法式碎花连衣裙，浅色底搭配小碎花图案，收腰设计且有荷叶边装饰，风格清新自然。\n· 货号 **DRESS-001**，店里现货可咨询\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n\n要不要先点「看看上身效果」预览一下？喜欢的话我可以帮您推荐尺码和搭配哦～",
+        "metadata": {
+          "name": "法式碎花连衣裙",
+          "type": "similar_product",
+          "style": "清新 fresh natural",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "看看上身效果",
+              "sku_id": "6c90d7ac51704a9287e43bbd1540c254"
+            },
+            {
+              "text": "我想试穿法式碎花连衣裙",
+              "type": "message",
+              "label": "就这件，帮我试穿"
+            },
+            {
+              "text": "法式碎花连衣裙适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "法式碎花连衣裙有什么搭配建议？",
+              "type": "message",
+              "label": "有什么搭配建议？"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-001",
+          "image_url": "/api/sku/6c90d7ac51704a9287e43bbd1540c254/image",
+          "similarity": 0.9,
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          },
+          "match_method": "vision",
+          "match_reason": "均为法式碎花连衣裙，浅色底搭配小碎花图案，收腰设计且有荷叶边装饰，风格清新自然。"
+        },
+        "created_at": "2026-07-12T17:21:19"
+      },
+      {
+        "id": 238,
+        "session_id": "76aa9872cc52419c9fcb19551790a504",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-12T17:22:10"
+      },
+      {
+        "id": 239,
+        "session_id": "76aa9872cc52419c9fcb19551790a504",
+        "role": "user",
+        "content": "有类似的衣服吗？",
+        "metadata": {
+          "text": "有类似的衣服吗？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/76aa9872cc52419c9fcb19551790a504/eddb70ed_floral_dress.png"
+        },
+        "created_at": "2026-07-12T17:22:10"
+      },
+      {
+        "id": 240,
+        "session_id": "76aa9872cc52419c9fcb19551790a504",
+        "role": "assistant",
+        "content": "亲亲，按您说的「有类似的衣服吗？」，我在店里找到了一款挺像的 **法式碎花连衣裙**～\n\n· 均为法式碎花连衣裙，浅色底搭配小碎花图案，收腰设计且带有荷叶边袖口，风格清新自然。\n· 货号 **DRESS-001**，店里现货可咨询\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n\n要不要先点「看看上身效果」预览一下？喜欢的话我可以帮您推荐尺码和搭配哦～",
+        "metadata": {
+          "name": "法式碎花连衣裙",
+          "type": "similar_product",
+          "style": "清新 fresh natural",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "看看上身效果",
+              "sku_id": "6c90d7ac51704a9287e43bbd1540c254"
+            },
+            {
+              "text": "我想试穿法式碎花连衣裙",
+              "type": "message",
+              "label": "就这件，帮我试穿"
+            },
+            {
+              "text": "法式碎花连衣裙适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "法式碎花连衣裙有什么搭配建议？",
+              "type": "message",
+              "label": "有什么搭配建议？"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-001",
+          "image_url": "/api/sku/6c90d7ac51704a9287e43bbd1540c254/image",
+          "similarity": 0.9,
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          },
+          "match_method": "vision",
+          "match_reason": "均为法式碎花连衣裙，浅色底搭配小碎花图案，收腰设计且带有荷叶边袖口，风格清新自然。"
+        },
+        "created_at": "2026-07-12T17:22:50"
+      },
+      {
+        "id": 241,
+        "session_id": "271f00247e0a4d6aa73cd006b8769fd8",
+        "role": "assistant",
+        "content": "亲亲，我在哦～当前人工客服不在线，我是 AI 智能助手，可以帮您：\n· 商品咨询与尺码推荐\n· 发货/退换货查询\n· 虚拟试穿效果图\n· 搭配建议\n直接输入您的问题就可以啦～",
+        "metadata": null,
+        "created_at": "2026-07-12T17:25:40"
+      },
+      {
+        "id": 242,
+        "session_id": "271f00247e0a4d6aa73cd006b8769fd8",
+        "role": "user",
+        "content": "有类似的衣服吗？",
+        "metadata": {
+          "text": "有类似的衣服吗？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/271f00247e0a4d6aa73cd006b8769fd8/55bcef69_floral_dress.png"
+        },
+        "created_at": "2026-07-12T17:25:40"
+      },
+      {
+        "id": 243,
+        "session_id": "271f00247e0a4d6aa73cd006b8769fd8",
+        "role": "assistant",
+        "content": "亲亲，按您说的「有类似的衣服吗？」，我在店里找到了一款挺像的 **法式碎花连衣裙**～\n\n· 均为法式碎花连衣裙，浅色底配小碎花图案，收腰设计，荷叶边领口与袖口，风格清新自然。\n· 货号 **DRESS-001**，店里现货可咨询\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n\n要不要先点「看看上身效果」预览一下？喜欢的话我可以帮您推荐尺码和搭配哦～",
+        "metadata": {
+          "name": "法式碎花连衣裙",
+          "type": "similar_product",
+          "style": "清新 fresh natural",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "看看上身效果",
+              "sku_id": "6c90d7ac51704a9287e43bbd1540c254"
+            },
+            {
+              "text": "我想试穿法式碎花连衣裙",
+              "type": "message",
+              "label": "就这件，帮我试穿"
+            },
+            {
+              "text": "法式碎花连衣裙适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "法式碎花连衣裙有什么搭配建议？",
+              "type": "message",
+              "label": "有什么搭配建议？"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-001",
+          "image_url": "/api/sku/6c90d7ac51704a9287e43bbd1540c254/image",
+          "similarity": 0.9,
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          },
+          "match_method": "vision",
+          "match_reason": "均为法式碎花连衣裙，浅色底配小碎花图案，收腰设计，荷叶边领口与袖口，风格清新自然。"
+        },
+        "created_at": "2026-07-12T17:26:02"
+      },
+      {
+        "id": 244,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "有类似的衣服吗？",
+        "metadata": {
+          "text": "有类似的衣服吗？",
+          "type": "image",
+          "image_url": "/storage/uploads/chat/12b04450d6c048f98b036b125d92ca1e/6de848ca_image.png"
+        },
+        "created_at": "2026-07-12T17:31:38"
+      },
+      {
+        "id": 245,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，按您说的「有类似的衣服吗？」，我在店里找到了一款挺像的 **法式碎花连衣裙**～\n\n· 均为法式碎花连衣裙，浅色底配小碎花图案，收腰设计，荷叶边领口，风格清新自然。\n· 货号 **DRESS-001**，店里现货可咨询\n\n标准身材参考：身高 **165cm** / 体重 **55kg**\n\n要不要先点「看看上身效果」预览一下？喜欢的话我可以帮您推荐尺码和搭配哦～",
+        "metadata": {
+          "name": "法式碎花连衣裙",
+          "type": "similar_product",
+          "style": "清新 fresh natural",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+          "actions": [
+            {
+              "type": "tryon",
+              "label": "看看上身效果",
+              "sku_id": "6c90d7ac51704a9287e43bbd1540c254"
+            },
+            {
+              "text": "我想试穿法式碎花连衣裙",
+              "type": "message",
+              "label": "就这件，帮我试穿"
+            },
+            {
+              "text": "法式碎花连衣裙适合什么尺码？",
+              "type": "message",
+              "label": "适合什么尺码？"
+            },
+            {
+              "text": "法式碎花连衣裙有什么搭配建议？",
+              "type": "message",
+              "label": "有什么搭配建议？"
+            }
+          ],
+          "category": "女装/连衣裙",
+          "sku_code": "DRESS-001",
+          "image_url": "/api/sku/6c90d7ac51704a9287e43bbd1540c254/image",
+          "similarity": 0.9,
+          "default_body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0
+          },
+          "match_method": "vision",
+          "match_reason": "均为法式碎花连衣裙，浅色底配小碎花图案，收腰设计，荷叶边领口，风格清新自然。"
+        },
+        "created_at": "2026-07-12T17:31:56"
+      },
+      {
+        "id": 246,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "[试穿] 法式碎花连衣裙",
+        "metadata": {
+          "type": "action",
+          "action": "tryon",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254"
+        },
+        "created_at": "2026-07-12T17:33:48"
+      },
+      {
+        "id": 247,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，这是 **法式碎花连衣裙** 的模特上身效果图（使用您的身材数据）～\n参考身材：身高 **165cm** / 体重 **55kg**",
+        "metadata": {
+          "body": {
+            "height_cm": 165.0,
+            "weight_kg": 55.0,
+            "is_default": false
+          },
+          "type": "tryon_result",
+          "sku_id": "6c90d7ac51704a9287e43bbd1540c254",
+          "actions": [
+            {
+              "text": "店里还有什么推荐？",
+              "type": "message",
+              "label": "换一件看看"
+            }
+          ],
+          "sku_name": "法式碎花连衣裙",
+          "image_url": "/storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/H3.png",
+          "image_code": "H3",
+          "gallery_urls": [
+            "/storage/generated/f63c94f4ea4f4a22a8fa0acee16933be/H3.png"
+          ],
+          "is_model_shot": true
+        },
+        "created_at": "2026-07-12T17:33:48"
+      },
+      {
+        "id": 248,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "user",
+        "content": "店里还有什么推荐？",
+        "metadata": null,
+        "created_at": "2026-07-12T17:34:25"
+      },
+      {
+        "id": 249,
+        "session_id": "12b04450d6c048f98b036b125d92ca1e",
+        "role": "assistant",
+        "content": "亲亲，店里目前有 **6** 款商品哦～\n· **女装**（3款）：针织开衫外套-测试-edited、简约黑色吊带裙、法式碎花连衣裙\n· **包袋**（1款）：简约托特包\n· **运动**（1款）：运动休闲卫衣\n· **男装**（1款）：高腰直筒牛仔裤\n\n右侧可浏览商品图，点击即可咨询；也可直接发商品图片给我识别～",
+        "metadata": {
+          "type": "catalog",
+          "actions": [
+            {
+              "text": "我想试穿这件衣服",
+              "type": "message",
+              "label": "虚拟试穿效果图"
+            },
+            {
+              "text": "几天发货？",
+              "type": "message",
+              "label": "发货查询"
+            }
+          ],
+          "categories": [
+            {
+              "name": "女装",
+              "count": 3
+            },
+            {
+              "name": "包袋",
+              "count": 1
+            },
+            {
+              "name": "运动",
+              "count": 1
+            },
+            {
+              "name": "男装",
+              "count": 1
+            }
+          ]
+        },
+        "created_at": "2026-07-12T17:34:25"
+      }
+    ],
+    "user_profiles": [
+      {
+        "user_id": "dbg",
+        "height_cm": 165.0,
+        "weight_kg": 55.0,
+        "preferences_json": null,
+        "updated_at": "2026-07-10T14:36:45"
+      },
+      {
+        "user_id": "guest",
+        "height_cm": null,
+        "weight_kg": null,
+        "preferences_json": null,
+        "updated_at": "2026-07-09T12:46:27"
+      },
+      {
+        "user_id": "http_dbg",
+        "height_cm": 165.0,
+        "weight_kg": 55.0,
+        "preferences_json": null,
+        "updated_at": "2026-07-10T14:38:14"
+      },
+      {
+        "user_id": "t8000",
+        "height_cm": 165.0,
+        "weight_kg": 55.0,
+        "preferences_json": null,
+        "updated_at": "2026-07-10T14:40:18"
+      },
+      {
+        "user_id": "test_opt",
+        "height_cm": 165.0,
+        "weight_kg": 55.0,
+        "preferences_json": null,
+        "updated_at": "2026-07-10T14:35:59"
+      },
+      {
+        "user_id": "test_opt2",
+        "height_cm": null,
+        "weight_kg": null,
+        "preferences_json": null,
+        "updated_at": "2026-07-10T14:39:16"
+      },
+      {
+        "user_id": "u_1cbc37374908",
+        "height_cm": 165.0,
+        "weight_kg": 55.0,
+        "preferences_json": null,
+        "updated_at": "2026-07-10T15:43:59"
+      }
+    ]
+  }
+}

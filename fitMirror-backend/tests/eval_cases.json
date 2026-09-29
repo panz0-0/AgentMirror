@@ -1,0 +1,86 @@
+{
+  "intent_cases": [
+    {"text": "我想试穿这件衣服", "expected_intent": "product_tryon", "expected_route": "legacy_tryon"},
+    {"text": "这件衣服上身效果怎么样", "expected_intent": "product_tryon", "expected_route": "legacy_tryon"},
+    {"text": "我想看看店里有哪些裤子", "expected_intent": "product_catalog", "expected_route": "legacy_catalog"},
+    {"text": "推荐几件衣服", "expected_intent": "product_catalog", "expected_route": "legacy_catalog"},
+    {"text": "这件商品是什么尺码", "expected_intent": "product_intro", "expected_route": "legacy_product_intro"},
+    {"text": "请介绍一下这款商品", "expected_intent": "product_intro", "expected_route": "legacy_product_intro"},
+    {"text": "退货几天能退款", "expected_intent": "policy_faq", "expected_route": "legacy_faq_rag"},
+    {"text": "物流几天到", "expected_intent": "policy_faq", "expected_route": "legacy_faq_rag"},
+    {"text": "你好", "expected_intent": "general_chat", "expected_route": "legacy_langgraph_chat"},
+    {"text": "我想找一件相似款", "expected_intent": "similar_product", "expected_route": "legacy_similar_product"},
+    {"text": "这款衣服怎么搭配", "expected_intent": "product_advice", "expected_route": "legacy_langgraph_chat"},
+    {"text": "衣服和裤子怎么组合", "expected_intent": "product_advice", "expected_route": "legacy_langgraph_chat"},
+    {"text": "我收到的衣服破损了怎么办", "expected_intent": "policy_faq", "expected_route": "legacy_faq_rag"},
+    {"text": "能开发票吗", "expected_intent": "policy_faq", "expected_route": "legacy_faq_rag"},
+    {"text": "帮我看这张图里有没有类似款", "expected_intent": "similar_product", "expected_route": "legacy_image_match", "has_image": true},
+    {"text": "", "expected_intent": "similar_product", "expected_route": "legacy_image_match", "has_image": true},
+    {"text": "今天天气不错", "expected_intent": "general_chat", "expected_route": "legacy_langgraph_chat"},
+    {"text": "xyzabc随便问问", "expected_intent": "general_chat", "expected_route": "legacy_langgraph_chat"},
+    {"text": "账号一直登录失败", "expected_intent": "policy_faq", "expected_route": "legacy_faq_rag"},
+    {"text": "支付扣款异常怎么处理", "expected_intent": "policy_faq", "expected_route": "legacy_faq_rag"}
+  ],
+  "quality_cases": [
+    {
+      "query": "有哪些商品",
+      "expected_route": "agent_catalog",
+      "keywords": ["商品", "件", "分类"],
+      "expected_answer": "返回商品目录，包含商品数量和分类"
+    },
+    {
+      "query": "介绍一下 TOP-001",
+      "expected_route": "agent_product_advisor",
+      "keywords": ["TOP-001", "介绍", "商品"],
+      "expected_answer": "介绍 TOP-001 商品的名称、分类、风格等信息"
+    },
+    {
+      "query": "我想试穿 TOP-001",
+      "expected_route": "agent_tryon",
+      "keywords": ["试穿", "TOP-001", "体型"],
+      "expected_answer": "生成试穿效果图，包含参考体型信息"
+    },
+    {
+      "query": "退货政策是什么",
+      "expected_route": "agent_policy_rag",
+      "keywords": ["退货", "7天", "退款"],
+      "expected_answer": "说明退货政策，包括7天无理由退货、退款时效等"
+    },
+    {
+      "query": "发货物流政策",
+      "expected_route": "agent_policy_rag",
+      "keywords": ["发货", "物流", "24"],
+      "expected_answer": "说明发货时间和物流方式"
+    },
+    {
+      "query": "TOP-001 适合什么风格",
+      "expected_route": "agent_product_advisor",
+      "keywords": ["TOP-001", "风格"],
+      "expected_answer": "介绍 TOP-001 的风格特点"
+    },
+    {
+      "query": "店里现在有什么",
+      "expected_route": "agent_catalog",
+      "keywords": ["商品", "件"],
+      "expected_answer": "返回当前在售商品列表"
+    },
+    {
+      "query": "介绍一下 DRESS-001",
+      "expected_route": "agent_product_advisor",
+      "keywords": ["DRESS-001", "连衣裙"],
+      "expected_answer": "介绍 DRESS-001 法式碎花连衣裙的信息"
+    },
+    {
+      "query": "我想试穿 DRESS-001",
+      "expected_route": "agent_tryon",
+      "keywords": ["试穿", "DRESS-001"],
+      "expected_answer": "生成 DRESS-001 的试穿效果图"
+    },
+    {
+      "query": "你好",
+      "expected_route": "legacy_langgraph_chat",
+      "keywords": ["你好", "亲"],
+      "expected_answer": "友好的客服问候回复"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "product_name": "",
+  "category": "运动鞋",
+  "materials": [],
+  "colors": [],
+  "structure": [],
+  "visible_features": [],
+  "constraints": [
+    "do not modify product shape",
+    "do not change colors"
+  ]
+}

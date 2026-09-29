@@ -1,0 +1,44 @@
+﻿{
+  "total": 20,
+  "correct": 20,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "route_consistency": 1.0,
+  "per_intent": {
+    "general_chat": {
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    },
+    "policy_faq": {
+      "total": 6,
+      "correct": 6,
+      "accuracy": 1.0
+    },
+    "product_advice": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    "product_catalog": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    "product_intro": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    "product_tryon": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    "similar_product": {
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    }
+  }
+}

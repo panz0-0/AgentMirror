@@ -57,11 +57,13 @@ fitMirror 解决的是电商里两个常见场景：
 | 模块 | 能力 |
 |------|------|
 | **AI 客服** | 多轮对话、意图路由（闲聊 / FAQ / 试穿）、LangGraph 编排 |
-| **发图相似款** | 视觉模型（qwen-vl 等）对比用户图与店内 SKU；dHash + 启发式兜底 |
+| **AgentFlow** | 意图三路融合（Pattern + Embedding + LLM）、takeover 接管、Badcase 半自动回流 |
+| **发图相似款** | 视觉模型（Qwen3-VL）对比用户图与店内 SKU；dHash + 启发式兜底 |
 | **虚拟试穿** | 选择 SKU + 身材数据，返回试穿效果图画廊 |
 | **运营工作台** | SKU CRUD、Stage1 分析 → Stage2 策略 → Stage3 提示词 → 出图 |
-| **知识库** | 上传 FAQ / 话术 / 政策 / 商品说明（txt/md/pdf/docx），向量检索 |
+| **知识库** | 上传 FAQ / 话术 / 政策 / 商品说明（txt/md/pdf/docx），ChromaDB 向量检索 |
 | **商品目录** | 分类浏览、点击咨询、发图匹配、商品介绍卡片 |
+| **可观测性** | Prometheus 指标、API 调用链路日志（JSONL）、AgentFlow 运行时指标 |
 
 ---
 
@@ -76,8 +78,9 @@ fitMirror/
 │   │   ├── router/             # FastAPI 路由
 │   │   ├── services/           # 业务逻辑（客服、识图、试穿等）
 │   │   ├── graph/              # LangGraph 编排（客服图 / 运营图）
+│   │   ├── agentflow_adapter/ # AgentFlow：意图路由 / 三层记忆 / Badcase 回流 / 监控
 │   │   ├── pipeline/           # 视觉生成流水线
-│   │   ├── rag/                # 文档解析 + 向量检索
+│   │   ├── rag/                # 文档解析 + 向量检索（ChromaDB / Milvus / 内存）
 │   │   ├── models/             # SQLAlchemy 模型
 │   │   └── db/                 # 数据库配置
 │   ├── scripts/                # 种子数据、快照恢复、自测脚本
@@ -85,14 +88,18 @@ fitMirror/
 │   │   ├── images/             # 基础商品图
 │   │   ├── knowledge/          # 知识库原文
 │   │   └── snapshot/           # MySQL 演示快照 demo_db.json
-│   ├── storage/                # 演示运行时文件（图片、workspace、向量索引）
+│   ├── storage/                # 演示运行时文件（图片、workspace、向量索引、日志）
 │   ├── main.py
+│   ├── requirements.txt        # Docker / 服务器 pip 安装
 │   ├── pyproject.toml
 │   └── uv.lock
 ├── frontend/                   # Vue 3 前端
+│   ├── Dockerfile              # 前端容器（多阶段：npm build + nginx）
+│   ├── nginx.conf              # 反代 /api → backend:8000
 │   └── src/
 │       ├── views/customer/     # 客服聊天
 │       └── views/ops/          # 运营台 + 知识库
+├── docker-compose.yml          # 一键部署（MySQL + Redis + ChromaDB + 后端 + 前端）
 └── README.md
 ```
 
@@ -105,14 +112,17 @@ fitMirror/
 | 类别 | 技术 |
 |------|------|
 | 运行时 | Python 3.11+ |
-| 包管理 | [uv](https://docs.astral.sh/uv/) |
+| 包管理 | [uv](https://docs.astral.sh/uv/)（本地开发）/ pip + requirements.txt（Docker） |
 | Web 框架 | FastAPI + Uvicorn |
-| ORM | SQLAlchemy 2.0（async） |
+| ORM | SQLAlchemy 2.0（async） + PyMySQL |
 | 数据库 | MySQL 8 |
+| 缓存 / 记忆 | Redis（三层记忆持久化，关闭则降级进程内存） |
 | AI 编排 | LangGraph + LangChain |
-| 向量库 | 内存索引（默认）/ Milvus（可选） |
-| LLM | OpenAI 兼容 API / 阿里云 DashScope / Ollama |
-| 图像 | Pillow、dHash、多模态视觉模型、AIGC 出图 |
+| 向量库 | ChromaDB（默认）/ Milvus（可选）/ 内存（回退） |
+| LLM 文本 | DeepSeek API（OpenAI 兼容格式） |
+| 视觉 / 出图 / Embedding | 硅基流动 SiliconFlow（Qwen3-VL / Qwen-Image-Edit / BGE-M3） |
+| 图像处理 | Pillow、dHash、多模态视觉模型、AIGC 出图 |
+| 监控 | Prometheus 指标（自定义实现）、JSONL 调用链路日志 |
 
 ### 前端 `frontend`
 
@@ -135,40 +145,57 @@ flowchart TB
         KB["知识库 /ops/knowledge"]
     end
 
-    subgraph Frontend["frontend (Vue 3)"]
-        Vite["Vite Dev Server :5173"]
+    subgraph Frontend["frontend (Vue 3 + nginx) :5174"]
+        Nginx["nginx<br/>反代 /api → backend"]
     end
 
     subgraph Backend["fitMirror-backend (FastAPI :8000)"]
         API["REST API /api/*"]
+        AgentFlow["AgentFlow<br/>意图路由 + 三层记忆 + Badcase 回流"]
         CSGraph["客服 LangGraph<br/>意图 → RAG / 试穿 / 闲聊"]
         OpsGraph["运营流水线<br/>Stage1 分析 → Stage2 策略 → Stage3 提示词 → 出图"]
         RAG["RAG 服务"]
         Pipeline["视觉生成 Pipeline"]
         Similar["相似款视觉匹配"]
+        Metrics["Prometheus /metrics<br/>JSONL 调用日志"]
     end
 
     subgraph Storage["存储"]
-        DB[("MySQL")]
-        Files["storage/ 文件"]
-        Vec["向量索引<br/>内存 / Milvus"]
+        DB[("MySQL 8")]
+        Redis[("Redis<br/>三层记忆")]
+        Chroma[("ChromaDB<br/>向量检索")]
+        Files["storage/ 文件 + 日志"]
     end
 
-    Chat --> Vite
-    Ops --> Vite
-    KB --> Vite
-    Vite -->|proxy /api| API
+    Chat --> Nginx
+    Ops --> Nginx
+    KB --> Nginx
+    Nginx -->|proxy /api| API
+    API --> AgentFlow
     API --> CSGraph
     API --> OpsGraph
     API --> Similar
     API --> RAG
+    AgentFlow --> CSGraph
     OpsGraph --> Pipeline
     CSGraph --> RAG
     Similar --> DB
-    RAG --> Vec
+    RAG --> Chroma
+    AgentFlow --> Redis
     API --> DB
+    API --> Metrics
     Pipeline --> Files
 ```
+
+### AgentFlow 架构（客服侧核心）
+
+AgentFlow 是客服侧的意图路由与编排层，支持**渐进式接管**业务路径：
+
+- **执行模式**：`shadow`（旁路观察）/ `takeover`（接管业务路径，默认）
+- **意图三路融合**：Pattern 规则 + Embedding 语义 + LLM Judge，三者任一失败自动降级
+- **Agent 开关**：CatalogAgent / PolicyRAGAgent / TryOnAgent / ProductAdvisorAgent 独立开关
+- **三层记忆**：L1 工作记忆 / L2 会话摘要 / L3 用户画像，Redis 持久化（关闭降级进程内存）
+- **Badcase 回流**：半自动流程，运营填写期望回复后自动生成规则（权重 0.6×，低于人工规则）
 
 ### 客服对话流
 
@@ -215,24 +242,58 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 | 组件 | 用途 | 默认替代方案 |
 |------|------|--------------|
-| **Redis** | 分布式限流 | 内存限流 |
-| **Milvus** | 大规模向量检索 | 内存向量库 + JSON 持久化 |
-| **Ollama** | 本地 LLM | OpenAI / DashScope API |
-| **LLM API Key** | 对话、识图、出图 | 部分 UI 可本地调试，核心 AI 能力需配置 Key |
+| **Redis** | 三层记忆持久化（L1/L2/L3） | 进程内存（重启丢失） |
+| **ChromaDB** | 向量语义检索 | 内存向量库 + JSON 持久化 |
+| **Milvus** | 大规模向量检索 | ChromaDB / 内存向量库 |
+| **Docker** | 一键容器化部署 | 手动启动各组件 |
 
 ---
 
 ## 快速开始
 
-### 1. 克隆仓库
+提供两种启动方式：**Docker Compose 一键部署**（推荐服务器/演示）或 **本地裸机开发**。
+
+### 方式 A：Docker Compose 一键部署（推荐）
+
+适合服务器部署或面试演示，全套服务容器化、数据卷持久化。
 
 ```bash
 git clone https://gitee.com/yuyu_666/fit-mirror.git fitMirror
 # 或 GitHub: git clone https://github.com/15170719135/fit-mirror.git fitMirror
 cd fitMirror
+
+# 1. 根目录 .env（docker-compose 基础设施配置）
+cp .env.example .env
+# 按需改 MYSQL_ROOT_PASSWORD（默认 root123）
+
+# 2. 后端 .env（API Key 必填）
+cp fitMirror-backend/.env.example fitMirror-backend/.env
+# 填入 DeepSeek API Key + 硅基流动 API Key
+
+# 3. 一键启动（含 MySQL + Redis + ChromaDB + 后端 + 前端）
+docker compose up -d --build
 ```
 
-### 2. 一键恢复演示环境（推荐）
+端口映射：
+
+| 服务 | 容器端口 | 宿主机端口 | 说明 |
+|------|---------|-----------|------|
+| backend | 8000 | 8000 | FastAPI + Swagger 文档 |
+| frontend | 80 | 5174 | nginx 托管前端 + 反代 /api |
+| mysql | 3306 | 3306 | 数据库 |
+| redis | 6379 | 6379 | 三层记忆持久化 |
+| chromadb | 8000 | 8001 | 向量检索 |
+
+验证：
+```bash
+docker compose ps                              # 容器状态
+curl http://localhost:8000/api/health          # 后端健康检查
+curl http://localhost:5174                     # 前端访问
+```
+
+### 方式 B：本地裸机开发
+
+#### 1. 一键恢复演示环境（推荐）
 
 仓库已附带作者本地的 **完整演示数据**：
 
@@ -255,7 +316,7 @@ uv run python scripts/restore_demo_environment.py
 
 > 若只需空白库 + 基础种子数据，可用旧脚本：`uv run python scripts/init_mysql.py`
 
-### 3. 启动后端
+#### 2. 启动后端
 
 ```bash
 cd fitMirror-backend
@@ -264,7 +325,7 @@ uv run uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 
 API 文档：http://127.0.0.1:8000/docs
 
-### 4. 启动前端
+#### 3. 启动前端
 
 ```bash
 cd frontend
@@ -272,7 +333,9 @@ npm install
 npm run dev
 ```
 
-访问：http://localhost:5173
+访问：http://localhost:5174
+
+> **端口约定**：前端固定 5174（5173 被其他项目占用），后端 8000，ChromaDB 8001，Redis 6379。
 
 | 路由 | 页面 |
 |------|------|
@@ -280,7 +343,7 @@ npm run dev
 | `/ops` | 运营工作台（SKU + 生成流水线） |
 | `/ops/knowledge` | 知识库管理 |
 
-### 5. 补充演示数据（可选）
+#### 4. 补充演示数据（可选）
 
 若 `restore_demo_environment.py` 后想重置为作者最新快照：
 
@@ -313,31 +376,92 @@ MYSQL_PORT=3306
 MYSQL_DATABASE=fitmirror
 ```
 
-> 项目统一使用 MySQL，请确保服务已启动。
+> Docker 部署时，`MYSQL_HOST` 由 docker-compose 覆盖为 `mysql`，无需手动改。
 
-### LLM（OpenAI 兼容 / DashScope / Ollama）
+### LLM（多提供商分离配置）
+
+项目采用**多提供商架构**，文本/视觉/图像/Embedding 各走独立凭证：
 
 ```env
-# 阿里云 DashScope 示例
-API_PROVIDER=dashscope
-OPENAI_API_KEY=your_key
-BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
-VISION_MODEL=qwen-vl-max
-TEXT_MODEL=qwen-max
-IMAGE_MODEL=qwen-image-2.0-pro-2026-04-22
+# 文本对话 → DeepSeek（OpenAI 兼容格式）
+API_PROVIDER=openai
+OPENAI_API_KEY=sk-your-deepseek-key
+BASE_URL=https://api.deepseek.com/v1
+TEXT_MODEL=deepseek-v4-pro
+
+# 视觉识图 → 硅基流动（Qwen3-VL）
+VISION_API_KEY=sk-your-siliconflow-key
+VISION_BASE_URL=https://api.siliconflow.cn/v1
+VISION_MODEL=Qwen/Qwen3-VL-8B-Instruct
+
+# 图像生成（图生图） → 硅基流动（Qwen-Image-Edit）
+IMAGE_API_KEY=sk-your-siliconflow-key
+IMAGE_BASE_URL=https://api.siliconflow.cn/v1
+IMAGE_MODEL=Qwen/Qwen-Image-Edit
+
+# Embedding → 硅基流动（BGE-M3）
+EMBED_API_KEY=sk-your-siliconflow-key
+EMBED_BASE_URL=https://api.siliconflow.cn/v1
+OPENAI_EMBED_MODEL=BAAI/bge-m3
 ```
 
-发图相似款、产品分析、出图等功能依赖视觉 / 文本 / 图像模型，请按实际供应商填写。
+> 视觉/图像/Embedding 的 Key 留空时，回退到主 `OPENAI_API_KEY` / `BASE_URL`。
 
 ### 向量库
 
 ```env
-USE_MILVUS=false
-MILVUS_HOST=localhost
-MILVUS_PORT=19530
+VECTOR_STORE=chroma
+CHROMA_HOST=localhost
+CHROMA_PORT=8001
+CHROMA_COLLECTION=fitmirror_kb
 ```
 
-`USE_MILVUS=false` 时使用内存向量库，索引持久化到 `storage/vectors/kb_index.json`。
+`VECTOR_STORE` 不设或设为非 `chroma` 时，使用内存向量库，索引持久化到 `storage/vectors/kb_index.json`。Milvus 通过 `USE_MILVUS=true` 启用。
+
+### Redis（三层记忆持久化）
+
+```env
+AGENTFLOW_MEMORY_REDIS_ENABLED=true
+REDIS_URL=redis://localhost:6379/0
+```
+
+关闭时降级进程内存，L1 工作记忆 / L2 会话摘要 / L3 用户画像 在服务重启后丢失。
+
+### AgentFlow（意图路由与接管）
+
+```env
+AGENTFLOW_EXECUTION_MODE=takeover          # shadow（旁路）/ takeover（接管）
+AGENTFLOW_INTENT_LLM_ENABLED=true         # 意图 LLM Judge 开关
+AGENTFLOW_CATALOG_ENABLED=false           # 各 Agent 独立开关
+AGENTFLOW_POLICY_RAG_ENABLED=false
+AGENTFLOW_TRYON_ENABLED=false
+```
+
+---
+
+## 可观测性
+
+### Prometheus 指标
+
+```bash
+curl http://localhost:8000/api/agentflow/metrics/prometheus
+```
+
+导出 AgentFlow 运行时指标（请求计数、延迟分布、Agent 选中次数、fallback 率），可用 Prometheus + Grafana 抓取。
+
+### API 调用链路日志
+
+每个 API 请求记录到 `fitMirror-backend/storage/logs/call_log_YYYYMMDD.jsonl`：
+
+```json
+{"ts":"2026-09-29 10:00:00.123","method":"POST","path":"/api/chat/send","status":200,"latency_ms":45.2,"client":"127.0.0.1","params":{"content":"试穿"},"error":null}
+```
+
+- 自动清理 7 天前的日志文件
+- `/api/logs/calls` 路径本身不计入日志（避免自引用）
+- 业务层错误通过 `X-Business-Error` header 捕获，写入 error 字段
+
+前端在 API 调用日志页提供 20 条/页的分页查询。
 
 ---
 
@@ -358,27 +482,39 @@ uv run python scripts/verify_fixes.py
 # 前端 — 在 frontend 目录下
 npm run dev
 npm run build
+
+# Docker — 在项目根目录
+docker compose up -d --build      # 启动
+docker compose logs -f backend    # 看后端日志
+docker compose down               # 停止
 ```
 
 ### API 模块
 
 | 前缀 | 说明 |
 |------|------|
-| `/api/health` | 健康检查、DB / LLM 状态 |
+| `/api/health` | 健康检查、DB / LLM 状态（llm_configured / llm_reachable / rag_available） |
 | `/api/chat/*` | 会话、消息、试穿、商品目录、图文合并 |
+| `/api/agentflow/*` | 意图路由检查、运行时指标、Prometheus 导出 |
 | `/api/sku/*` | SKU CRUD、workspace、商品图 |
 | `/api/generation/*` | 运营流水线启停、任务进度 |
 | `/api/knowledge/*` | 知识库上传、预览、删除 |
+| `/api/logs/calls` | API 调用日志分页查询（20 条/页） |
 | `/api/metadata` | 下拉元数据（类目、风格、平台等） |
+| `/metrics` | Prometheus 抓取端点 |
 | `/storage/*` | 静态文件（上传图、生成图） |
 
 ### 核心实现要点
 
 1. **LangGraph 状态机**：客服与运营使用不同的 Graph，状态见 `app/graph/state.py`
-2. **人机协同**：运营流水线在 `campaign` / `prompts` 阶段暂停，等待确认后继续
-3. **RAG**：文档解析 → 分块 → 向量入库 → 检索增强回答
-4. **发图识货**：同款用 dHash；相似款用视觉模型对比用户图与 SKU 图（`similar_product_service.py`）
-5. **路径规范**：数据库存相对路径，由 `path_tool.resolve_storage_path` 解析
+2. **AgentFlow 渐进式接管**：`shadow` 旁路观察不影响业务，`takeover` 接管业务路径；通过 `executed_route` 字段验证是否真正执行
+3. **意图三路融合**：Pattern（规则）+ Embedding（语义）+ LLM Judge，固定意图枚举防 LLM 虚构，JSON 输出保证可解析
+4. **三层记忆**：Redis 持久化 L1/L2/L3，关闭时降级进程内存
+5. **人机协同**：运营流水线在 `campaign` / `prompts` 阶段暂停，等待确认后继续
+6. **RAG**：文档解析（unstructured 结构化 / pypdf 兜底）→ 分块 → ChromaDB 入库 → 检索增强回答
+7. **发图识货**：同款用 dHash；相似款用视觉模型对比用户图与 SKU 图（`similar_product_service.py`）
+8. **路径规范**：数据库存相对路径，由 `path_tool.resolve_storage_path` 解析
+9. **多提供商 LLM**：文本（DeepSeek）/ 视觉识图 / 图像生成 / Embedding 各自独立凭证，互不干扰
 
 ---
 
@@ -405,15 +541,18 @@ npm run build
 **学习向项目**，适合用来了解：
 
 - AI 客服的对话编排与意图路由
+- AgentFlow 渐进式接管与三路意图融合
 - RAG 知识库在电商场景的接入方式
 - 多模态发图识货与导购转化话术
 - 运营侧 AIGC 流水线的人机协同设计
+- 多提供商 LLM 架构（DeepSeek + 硅基流动）
 
 部署到公网前请注意：
 
 - 增加鉴权（当前 API 面向本地演示，无登录）
 - 限制 `/storage` 公开访问范围
 - 勿将 `.env` 中的 API Key 提交到仓库
+- Docker 部署时修改默认 `MYSQL_ROOT_PASSWORD`
 
 ---
 
